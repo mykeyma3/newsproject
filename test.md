@@ -1,295 +1,733 @@
+```json
 {
   "date": "2026-01-09",
   "timezone": "America/Chicago",
   "generated_at": "2026-01-09T16:05:12Z",
   "source_scope": {
     "region_label": "Chicago Metro",
-    "notes": "Local-first selection with a few global macro items."
+    "notes": "Fake dataset for UI testing only."
   },
   "articles": [
     {
       "id": "art_20260109_0001",
-      "slug": "cta-service-adjustments-weekend",
+      "slug": "fake-article-01-local-economy",
       "status": "published",
-      "title": "CTA announces weekend service adjustments on two lines",
-      "theme": "local",
-      "tags": ["transit", "cta", "service", "weekend"],
-      "geo": { "scope": "metro", "place_name": "Chicago, IL", "fips": null },
-      "published_window": { "start": "2026-01-09T00:00:00-06:00", "end": "2026-01-09T23:59:59-06:00" },
+      "title": "Fake test headline 01: Local Economy update for the region",
+      "theme": "local-economy",
+      "tags": [
+        "snow",
+        "markets",
+        "taxes",
+        "jobs"
+      ],
+      "geo": {
+        "scope": "national",
+        "place_name": "United States",
+        "fips": null
+      },
       "source_cluster": {
-        "topic_id": "topic_transit_20260109_a1",
+        "topic_id": "topic_fake_20260109_01",
         "sources": [
-          { "publisher": "CTA", "url": "https://www.transitchicago.com/", "published_at": "2026-01-09T07:18:00-06:00" },
-          { "publisher": "Local Outlet", "url": "https://example.com/cta-story", "published_at": "2026-01-09T08:02:00-06:00" }
+          {
+            "publisher": "Example Wire",
+            "url": "https://example.com/source/2026-01-09/01",
+            "published_at": "2026-01-09T07:03:00-06:00"
+          }
         ]
       },
       "summary": [
-        "Service frequency will change on parts of two lines this weekend due to track work.",
-        "Riders should expect longer waits and consider alternate routes during peak times.",
-        "Normal schedules are expected to resume after the maintenance window."
+        "Test bullet one for article 01.",
+        "Test bullet two adds a little context for theme 'local-economy'.",
+        "Test bullet three notes what to watch next."
       ],
-      "body_markdown": "## What happened\nCTA said some trains will run less frequently on parts of two lines this weekend due to scheduled maintenance.\n\n## What’s changing\n- Reduced frequency during specific hours\n- Possible platform changes at select stations\n\n## Why it matters\nIf you commute or have weekend plans, build extra time into your trip and check live arrival boards.\n\n## What to watch\nIf the work finishes early, service may normalize sooner; if it runs long, delays could extend into late Sunday.",
-      "key_numbers": [
-        { "label": "Lines affected", "value": 2, "unit": "count" }
-      ],
-      "bias_notes": {
-        "what_we_removed": ["opinionated language", "speculation about motives"],
-        "uncertainties": ["exact delay length varies by station and time"]
-      },
-      "created_at": "2026-01-09T14:20:00Z",
-      "updated_at": "2026-01-09T15:10:00Z"
+      "body_markdown": "## What happened\nThis is a fake article body for testing rendering, search, and filtering.\n\n## Why it matters\nIt helps validate layouts, tag pages, and detail views.\n\n## What to watch\nReplace with real content later.",
+      "created_at": "2026-01-09T15:02:00Z",
+      "updated_at": "2026-01-09T16:09:00Z"
     },
-
     {
       "id": "art_20260109_0002",
-      "slug": "lakefront-weather-wind-advisory",
+      "slug": "fake-article-02-tech",
       "status": "published",
-      "title": "Wind advisory raises lakefront impacts for the evening",
-      "theme": "weather",
-      "tags": ["weather", "wind", "lakefront", "advisory"],
-      "geo": { "scope": "metro", "place_name": "Chicago, IL", "fips": null },
+      "title": "Fake test headline 02: Tech update for the region",
+      "theme": "tech",
+      "tags": [
+        "wind",
+        "court",
+        "privacy",
+        "weekend"
+      ],
+      "geo": {
+        "scope": "city",
+        "place_name": "Chicago, IL",
+        "fips": null
+      },
       "source_cluster": {
-        "topic_id": "topic_weather_20260109_b2",
+        "topic_id": "topic_fake_20260109_02",
         "sources": [
-          { "publisher": "NWS", "url": "https://weather.gov/", "published_at": "2026-01-09T10:05:00-06:00" }
+          {
+            "publisher": "Example Wire",
+            "url": "https://example.com/source/2026-01-09/02",
+            "published_at": "2026-01-09T08:06:00-06:00"
+          }
         ]
       },
       "summary": [
-        "Gusty winds may create tougher driving conditions and choppy lake conditions.",
-        "High-profile vehicles are most likely to notice the impacts on open roads.",
-        "Conditions should ease after the advisory window ends."
+        "Test bullet one for article 02.",
+        "Test bullet two adds a little context for theme 'tech'.",
+        "Test bullet three notes what to watch next."
       ],
-      "body_markdown": "## What happened\nA wind advisory was issued affecting the metro area, with the lakefront seeing the strongest gusts.\n\n## Practical impacts\n- Harder driving on exposed roads/bridges\n- Rougher lake conditions\n- Loose outdoor items may move\n\n## What to do\nSecure anything lightweight outdoors and use extra caution driving near the lakefront.",
-      "key_numbers": [
-        { "label": "Risk", "value": 1, "unit": "advisory" }
-      ],
-      "bias_notes": {
-        "what_we_removed": ["alarmist framing"],
-        "uncertainties": ["gust strength and timing can shift"]
-      },
-      "created_at": "2026-01-09T14:25:00Z",
-      "updated_at": "2026-01-09T15:12:00Z"
+      "body_markdown": "## What happened\nThis is a fake article body for testing rendering, search, and filtering.\n\n## Why it matters\nIt helps validate layouts, tag pages, and detail views.\n\n## What to watch\nReplace with real content later.",
+      "created_at": "2026-01-09T16:04:00Z",
+      "updated_at": "2026-01-09T17:11:00Z"
     },
-
     {
       "id": "art_20260109_0003",
-      "slug": "school-board-budget-session",
+      "slug": "fake-article-03-weather",
       "status": "published",
-      "title": "School board budget session highlights staffing and facilities tradeoffs",
-      "theme": "civic",
-      "tags": ["education", "budget", "schools", "civic"],
-      "geo": { "scope": "county", "place_name": "Cook County, IL", "fips": "17031" },
+      "title": "Fake test headline 03: Weather update for the region",
+      "theme": "weather",
+      "tags": [
+        "infrastructure",
+        "events",
+        "ai",
+        "restaurants"
+      ],
+      "geo": {
+        "scope": "global",
+        "place_name": null,
+        "fips": null
+      },
       "source_cluster": {
-        "topic_id": "topic_edu_20260109_c3",
+        "topic_id": "topic_fake_20260109_03",
         "sources": [
-          { "publisher": "Board Minutes", "url": "https://example.com/board-minutes", "published_at": "2026-01-09T13:30:00-06:00" }
+          {
+            "publisher": "Example Wire",
+            "url": "https://example.com/source/2026-01-09/03",
+            "published_at": "2026-01-09T09:09:00-06:00"
+          }
         ]
       },
       "summary": [
-        "Leaders discussed balancing staffing needs with deferred building maintenance.",
-        "Public comment centered on classroom size and transparency in procurement.",
-        "Next steps include a revised draft and another public hearing."
+        "Test bullet one for article 03.",
+        "Test bullet two adds a little context for theme 'weather'.",
+        "Test bullet three notes what to watch next."
       ],
-      "body_markdown": "## What happened\nAt a budget work session, board members outlined priorities and constraints for the next fiscal year.\n\n## The tension\nMore staffing and smaller class sizes compete with facilities repairs and long-term maintenance.\n\n## What’s next\nA revised budget draft is expected ahead of the next hearing, where the public can comment again.",
-      "key_numbers": [
-        { "label": "Next hearing", "value": 1, "unit": "meeting" }
-      ],
-      "bias_notes": {
-        "what_we_removed": ["partisan framing"],
-        "uncertainties": ["final numbers depend on the revised draft"]
-      },
-      "created_at": "2026-01-09T14:28:00Z",
-      "updated_at": "2026-01-09T15:20:00Z"
+      "body_markdown": "## What happened\nThis is a fake article body for testing rendering, search, and filtering.\n\n## Why it matters\nIt helps validate layouts, tag pages, and detail views.\n\n## What to watch\nReplace with real content later.",
+      "created_at": "2026-01-09T14:06:00Z",
+      "updated_at": "2026-01-09T15:13:00Z"
     },
-
     {
       "id": "art_20260109_0004",
-      "slug": "downtown-office-vacancy-update",
+      "slug": "fake-article-04-health",
       "status": "published",
-      "title": "Downtown office vacancy remains elevated as leasing stays selective",
-      "theme": "local-economy",
-      "tags": ["real-estate", "offices", "leasing", "economy"],
-      "geo": { "scope": "metro", "place_name": "Chicago, IL", "fips": null },
+      "title": "Fake test headline 04: Health update for the region",
+      "theme": "health",
+      "tags": [
+        "transit",
+        "cta",
+        "service",
+        "startup"
+      ],
+      "geo": {
+        "scope": "county",
+        "place_name": "Cook County, IL",
+        "fips": "17031"
+      },
       "source_cluster": {
-        "topic_id": "topic_re_20260109_d4",
+        "topic_id": "topic_fake_20260109_04",
         "sources": [
-          { "publisher": "Market Report", "url": "https://example.com/market-report", "published_at": "2026-01-09T06:50:00-06:00" }
+          {
+            "publisher": "Example Wire",
+            "url": "https://example.com/source/2026-01-09/04",
+            "published_at": "2026-01-09T10:12:00-06:00"
+          }
         ]
       },
       "summary": [
-        "Vacancy remains high, while top-tier buildings capture most new leases.",
-        "Landlords are offering incentives more often than cutting face rents.",
-        "The next signal to watch is renewal activity and sublease inventory."
+        "Test bullet one for article 04.",
+        "Test bullet two adds a little context for theme 'health'.",
+        "Test bullet three notes what to watch next."
       ],
-      "body_markdown": "## What happened\nA new market snapshot shows downtown vacancies still high, with leasing concentrated in newer or renovated buildings.\n\n## Why it matters\nOffice demand influences downtown foot traffic, transit ridership, and nearby small businesses.\n\n## What to watch\nRenewal rates and sublease space will likely tell you more than headline asking rents.",
-      "key_numbers": [
-        { "label": "Trend", "value": "elevated", "unit": "vacancy" }
-      ],
-      "bias_notes": {
-        "what_we_removed": ["doom/boom language"],
-        "uncertainties": ["reporting methodologies differ by firm"]
-      },
-      "created_at": "2026-01-09T14:33:00Z",
-      "updated_at": "2026-01-09T15:25:00Z"
+      "body_markdown": "## What happened\nThis is a fake article body for testing rendering, search, and filtering.\n\n## Why it matters\nIt helps validate layouts, tag pages, and detail views.\n\n## What to watch\nReplace with real content later.",
+      "created_at": "2026-01-09T15:08:00Z",
+      "updated_at": "2026-01-09T16:15:00Z"
     },
-
     {
       "id": "art_20260109_0005",
-      "slug": "public-safety-data-release",
+      "slug": "fake-article-05-macro",
       "status": "published",
-      "title": "New public safety data release adds neighborhood-level breakdowns",
-      "theme": "public-safety",
-      "tags": ["public-safety", "data", "neighborhoods", "transparency"],
-      "geo": { "scope": "city", "place_name": "Chicago, IL", "fips": null },
+      "title": "Fake test headline 05: Macro update for the region",
+      "theme": "macro",
+      "tags": [
+        "oil",
+        "usd",
+        "rates",
+        "markets"
+      ],
+      "geo": {
+        "scope": "metro",
+        "place_name": "Chicago, IL",
+        "fips": null
+      },
       "source_cluster": {
-        "topic_id": "topic_ps_20260109_e5",
+        "topic_id": "topic_fake_20260109_05",
         "sources": [
-          { "publisher": "City Portal", "url": "https://example.com/city-data", "published_at": "2026-01-09T11:10:00-06:00" }
+          {
+            "publisher": "Example Wire",
+            "url": "https://example.com/source/2026-01-09/05",
+            "published_at": "2026-01-09T11:15:00-06:00"
+          }
         ]
       },
       "summary": [
-        "The update makes it easier to compare trends across neighborhoods.",
-        "Context matters: short-term spikes may reflect reporting changes or seasonality.",
-        "The most useful view is multi-month rolling averages."
+        "Test bullet one for article 05.",
+        "Test bullet two adds a little context for theme 'macro'.",
+        "Test bullet three notes what to watch next."
       ],
-      "body_markdown": "## What happened\nA city data portal update added clearer neighborhood-level breakdowns for incidents and calls.\n\n## How to use it\nCompare longer windows (3–6 months) rather than single-week changes.\n\n## What to watch\nIf definitions or reporting categories changed, the city should document those shifts clearly.",
-      "key_numbers": [],
-      "bias_notes": {
-        "what_we_removed": ["fear-based framing"],
-        "uncertainties": ["data definitions may differ across time periods"]
-      },
-      "created_at": "2026-01-09T14:40:00Z",
-      "updated_at": "2026-01-09T15:30:00Z"
+      "body_markdown": "## What happened\nThis is a fake article body for testing rendering, search, and filtering.\n\n## Why it matters\nIt helps validate layouts, tag pages, and detail views.\n\n## What to watch\nReplace with real content later.",
+      "created_at": "2026-01-09T16:10:00Z",
+      "updated_at": "2026-01-09T17:17:00Z"
     },
-
     {
       "id": "art_20260109_0006",
-      "slug": "state-infrastructure-grants-round",
+      "slug": "fake-article-06-public-safety",
       "status": "published",
-      "title": "State infrastructure grants open with focus on shovel-ready projects",
-      "theme": "policy",
-      "tags": ["infrastructure", "grants", "policy", "state"],
-      "geo": { "scope": "state", "place_name": "Illinois", "fips": "17" },
+      "title": "Fake test headline 06: Public Safety update for the region",
+      "theme": "public-safety",
+      "tags": [
+        "crime",
+        "data",
+        "privacy",
+        "court"
+      ],
+      "geo": {
+        "scope": "state",
+        "place_name": "Illinois",
+        "fips": "17"
+      },
       "source_cluster": {
-        "topic_id": "topic_infra_20260109_f6",
+        "topic_id": "topic_fake_20260109_06",
         "sources": [
-          { "publisher": "State Agency", "url": "https://example.com/grants", "published_at": "2026-01-09T09:40:00-06:00" }
+          {
+            "publisher": "Example Wire",
+            "url": "https://example.com/source/2026-01-09/06",
+            "published_at": "2026-01-09T12:18:00-06:00"
+          }
         ]
       },
       "summary": [
-        "Applications opened for infrastructure funding with deadlines in the coming weeks.",
-        "Agencies are signaling preference for projects that can start quickly.",
-        "Local governments may need matching funds or documented readiness."
+        "Test bullet one for article 06.",
+        "Test bullet two adds a little context for theme 'public-safety'.",
+        "Test bullet three notes what to watch next."
       ],
-      "body_markdown": "## What happened\nIllinois opened a new round of infrastructure grant applications.\n\n## Why it matters\nLocal projects that are ready to begin could move sooner if they meet criteria.\n\n## What to watch\nThe fine print: eligibility, matching requirements, and what counts as “shovel-ready.”",
-      "key_numbers": [],
-      "bias_notes": { "what_we_removed": ["political credit-taking"], "uncertainties": ["award timing depends on review process"] },
-      "created_at": "2026-01-09T14:45:00Z",
-      "updated_at": "2026-01-09T15:35:00Z"
+      "body_markdown": "## What happened\nThis is a fake article body for testing rendering, search, and filtering.\n\n## Why it matters\nIt helps validate layouts, tag pages, and detail views.\n\n## What to watch\nReplace with real content later.",
+      "created_at": "2026-01-09T14:12:00Z",
+      "updated_at": "2026-01-09T15:19:00Z"
     },
-
     {
       "id": "art_20260109_0007",
-      "slug": "health-clinic-hours-expansion",
+      "slug": "fake-article-07-culture",
       "status": "published",
-      "title": "Community clinic expands evening hours to reduce appointment backlogs",
-      "theme": "health",
-      "tags": ["health", "clinic", "access", "appointments"],
-      "geo": { "scope": "neighborhood", "place_name": "West Side, Chicago", "fips": null },
+      "title": "Fake test headline 07: Culture update for the region",
+      "theme": "culture",
+      "tags": [
+        "music",
+        "events",
+        "restaurants",
+        "weekend"
+      ],
+      "geo": {
+        "scope": "city",
+        "place_name": "Chicago, IL",
+        "fips": null
+      },
       "source_cluster": {
-        "topic_id": "topic_health_20260109_g7",
+        "topic_id": "topic_fake_20260109_07",
         "sources": [
-          { "publisher": "Clinic Notice", "url": "https://example.com/clinic-hours", "published_at": "2026-01-09T12:25:00-06:00" }
+          {
+            "publisher": "Example Wire",
+            "url": "https://example.com/source/2026-01-09/07",
+            "published_at": "2026-01-09T13:21:00-06:00"
+          }
         ]
       },
       "summary": [
-        "Extended evening hours aim to make care easier for people who work day shifts.",
-        "The clinic expects reduced wait times over the next month.",
-        "Patients should confirm eligibility and appointment types offered after hours."
+        "Test bullet one for article 07.",
+        "Test bullet two adds a little context for theme 'culture'.",
+        "Test bullet three notes what to watch next."
       ],
-      "body_markdown": "## What happened\nA community clinic announced expanded evening hours to address appointment backlogs.\n\n## Why it matters\nAccess often comes down to scheduling—extended hours can reduce missed care.\n\n## What to do\nCheck which services are offered in the evening and whether walk-ins are accepted.",
-      "key_numbers": [],
-      "bias_notes": { "what_we_removed": ["promotional language"], "uncertainties": ["capacity depends on staffing"] },
-      "created_at": "2026-01-09T14:50:00Z",
-      "updated_at": "2026-01-09T15:40:00Z"
+      "body_markdown": "## What happened\nThis is a fake article body for testing rendering, search, and filtering.\n\n## Why it matters\nIt helps validate layouts, tag pages, and detail views.\n\n## What to watch\nReplace with real content later.",
+      "created_at": "2026-01-09T15:14:00Z",
+      "updated_at": "2026-01-09T16:21:00Z"
     },
-
     {
       "id": "art_20260109_0008",
-      "slug": "tech-layoffs-and-local-hiring",
+      "slug": "fake-article-08-business",
       "status": "published",
-      "title": "Tech layoffs continue nationally while local hiring stays mixed",
-      "theme": "tech",
-      "tags": ["tech", "jobs", "layoffs", "hiring"],
-      "geo": { "scope": "national", "place_name": "United States", "fips": null },
+      "title": "Fake test headline 08: Business update for the region",
+      "theme": "business",
+      "tags": [
+        "startup",
+        "ai",
+        "jobs",
+        "privacy"
+      ],
+      "geo": {
+        "scope": "metro",
+        "place_name": "Chicago, IL",
+        "fips": null
+      },
       "source_cluster": {
-        "topic_id": "topic_jobs_20260109_h8",
+        "topic_id": "topic_fake_20260109_08",
         "sources": [
-          { "publisher": "Industry Brief", "url": "https://example.com/industry-brief", "published_at": "2026-01-09T08:45:00-06:00" }
+          {
+            "publisher": "Example Wire",
+            "url": "https://example.com/source/2026-01-09/08",
+            "published_at": "2026-01-09T14:24:00-06:00"
+          }
         ]
       },
       "summary": [
-        "National layoff announcements are still happening, but not evenly across roles.",
-        "In some metros, hiring continues for niche specialties despite headline cuts.",
-        "The key detail is whether cuts are cost-driven or product-strategy-driven."
+        "Test bullet one for article 08.",
+        "Test bullet two adds a little context for theme 'business'.",
+        "Test bullet three notes what to watch next."
       ],
-      "body_markdown": "## What happened\nFresh layoff announcements hit some tech firms, while hiring remains active in specific skill areas.\n\n## The nuance\nHeadlines blur differences: some cuts reflect cost control, others reflect product pivots.\n\n## What to watch\nJob postings for security, data infrastructure, and specialized engineering roles often stay steadier than general hiring.",
-      "key_numbers": [],
-      "bias_notes": { "what_we_removed": ["doom framing"], "uncertainties": ["roles impacted vary by company"] },
-      "created_at": "2026-01-09T14:55:00Z",
-      "updated_at": "2026-01-09T15:45:00Z"
+      "body_markdown": "## What happened\nThis is a fake article body for testing rendering, search, and filtering.\n\n## Why it matters\nIt helps validate layouts, tag pages, and detail views.\n\n## What to watch\nReplace with real content later.",
+      "created_at": "2026-01-09T16:16:00Z",
+      "updated_at": "2026-01-09T17:23:00Z"
     },
-
     {
       "id": "art_20260109_0009",
-      "slug": "sports-local-team-roster-move",
+      "slug": "fake-article-09-local",
       "status": "published",
-      "title": "Local team makes a minor roster move ahead of the weekend",
-      "theme": "sports",
-      "tags": ["sports", "roster", "injury", "weekend"],
-      "geo": { "scope": "metro", "place_name": "Chicago, IL", "fips": null },
+      "title": "Fake test headline 09: Local update for the region",
+      "theme": "local",
+      "tags": [
+        "housing",
+        "permits",
+        "construction",
+        "taxes"
+      ],
+      "geo": {
+        "scope": "county",
+        "place_name": "Cook County, IL",
+        "fips": "17031"
+      },
       "source_cluster": {
-        "topic_id": "topic_sports_20260109_i9",
+        "topic_id": "topic_fake_20260109_09",
         "sources": [
-          { "publisher": "Team Release", "url": "https://example.com/team-release", "published_at": "2026-01-09T09:05:00-06:00" }
+          {
+            "publisher": "Example Wire",
+            "url": "https://example.com/source/2026-01-09/09",
+            "published_at": "2026-01-09T15:27:00-06:00"
+          }
         ]
       },
       "summary": [
-        "The move appears aimed at depth and matchups rather than a major strategy shift.",
-        "Availability depends on practice status and travel timing.",
-        "Expect more clarity after the next official report."
+        "Test bullet one for article 09.",
+        "Test bullet two adds a little context for theme 'local'.",
+        "Test bullet three notes what to watch next."
       ],
-      "body_markdown": "## What happened\nThe team announced a small roster adjustment heading into the weekend slate.\n\n## Why it matters\nEven minor moves can signal injury management or matchup planning.\n\n## What to watch\nPractice participation and the next status update will clarify who is available.",
-      "key_numbers": [],
-      "bias_notes": { "what_we_removed": ["fan speculation"], "uncertainties": ["final availability depends on status updates"] },
-      "created_at": "2026-01-09T15:00:00Z",
-      "updated_at": "2026-01-09T15:50:00Z"
+      "body_markdown": "## What happened\nThis is a fake article body for testing rendering, search, and filtering.\n\n## Why it matters\nIt helps validate layouts, tag pages, and detail views.\n\n## What to watch\nReplace with real content later.",
+      "created_at": "2026-01-09T14:18:00Z",
+      "updated_at": "2026-01-09T15:25:00Z"
     },
-
     {
       "id": "art_20260109_0010",
-      "slug": "global-macro-usd-rates",
+      "slug": "fake-article-10-policy",
       "status": "published",
-      "title": "Dollar and rate expectations steer global risk sentiment",
-      "theme": "macro",
-      "tags": ["usd", "rates", "markets", "global"],
-      "geo": { "scope": "global", "place_name": null, "fips": null },
+      "title": "Fake test headline 10: Policy update for the region",
+      "theme": "policy",
+      "tags": [
+        "grants",
+        "infrastructure",
+        "taxes",
+        "budget"
+      ],
+      "geo": {
+        "scope": "state",
+        "place_name": "Illinois",
+        "fips": "17"
+      },
       "source_cluster": {
-        "topic_id": "topic_macro_20260109_j10",
+        "topic_id": "topic_fake_20260109_10",
         "sources": [
-          { "publisher": "Market Coverage", "url": "https://example.com/market-coverage", "published_at": "2026-01-09T07:55:00-06:00" }
+          {
+            "publisher": "Example Wire",
+            "url": "https://example.com/source/2026-01-09/10",
+            "published_at": "2026-01-09T16:30:00-06:00"
+          }
         ]
       },
       "summary": [
-        "Market pricing for future rate moves shifted slightly, lifting the dollar.",
-        "A firmer dollar can tighten financial conditions for commodities and emerging markets.",
-        "Watch bond yields and inflation prints for the next big adjustment."
+        "Test bullet one for article 10.",
+        "Test bullet two adds a little context for theme 'policy'.",
+        "Test bullet three notes what to watch next."
       ],
-      "body_markdown": "## What happened\nSmall shifts in rate expectations pushed the dollar higher and influenced broader risk appetite.\n\n## Why it matters\nA stronger USD can pressure dollar-priced assets (like many commodities) and change global funding conditions.\n\n## What to watch\nBond yields, inflation data, and central bank communication are usually the next catalysts.",
-      "key_numbers": [],
-      "bias_notes": { "what_we_removed": ["certainty language"], "uncertainties": ["moves can reverse quickly on new data"] },
-      "created_at": "2026-01-09T15:05:00Z",
-      "updated_at": "2026-01-09T15:55:00Z"
+      "body_markdown": "## What happened\nThis is a fake article body for testing rendering, search, and filtering.\n\n## Why it matters\nIt helps validate layouts, tag pages, and detail views.\n\n## What to watch\nReplace with real content later.",
+      "created_at": "2026-01-09T15:20:00Z",
+      "updated_at": "2026-01-09T16:27:00Z"
+    },
+    {
+      "id": "art_20260109_0011",
+      "slug": "fake-article-11-sports",
+      "status": "published",
+      "title": "Fake test headline 11: Sports update for the region",
+      "theme": "sports",
+      "tags": [
+        "injury",
+        "roster",
+        "weekend",
+        "events"
+      ],
+      "geo": {
+        "scope": "metro",
+        "place_name": "Chicago, IL",
+        "fips": null
+      },
+      "source_cluster": {
+        "topic_id": "topic_fake_20260109_11",
+        "sources": [
+          {
+            "publisher": "Example Wire",
+            "url": "https://example.com/source/2026-01-09/11",
+            "published_at": "2026-01-09T17:33:00-06:00"
+          }
+        ]
+      },
+      "summary": [
+        "Test bullet one for article 11.",
+        "Test bullet two adds a little context for theme 'sports'.",
+        "Test bullet three notes what to watch next."
+      ],
+      "body_markdown": "## What happened\nThis is a fake article body for testing rendering, search, and filtering.\n\n## Why it matters\nIt helps validate layouts, tag pages, and detail views.\n\n## What to watch\nReplace with real content later.",
+      "created_at": "2026-01-09T16:22:00Z",
+      "updated_at": "2026-01-09T17:29:00Z"
+    },
+    {
+      "id": "art_20260109_0012",
+      "slug": "fake-article-12-civic",
+      "status": "published",
+      "title": "Fake test headline 12: Civic update for the region",
+      "theme": "civic",
+      "tags": [
+        "budget",
+        "schools",
+        "court",
+        "data"
+      ],
+      "geo": {
+        "scope": "city",
+        "place_name": "Chicago, IL",
+        "fips": null
+      },
+      "source_cluster": {
+        "topic_id": "topic_fake_20260109_12",
+        "sources": [
+          {
+            "publisher": "Example Wire",
+            "url": "https://example.com/source/2026-01-09/12",
+            "published_at": "2026-01-09T18:36:00-06:00"
+          }
+        ]
+      },
+      "summary": [
+        "Test bullet one for article 12.",
+        "Test bullet two adds a little context for theme 'civic'.",
+        "Test bullet three notes what to watch next."
+      ],
+      "body_markdown": "## What happened\nThis is a fake article body for testing rendering, search, and filtering.\n\n## Why it matters\nIt helps validate layouts, tag pages, and detail views.\n\n## What to watch\nReplace with real content later.",
+      "created_at": "2026-01-09T14:24:00Z",
+      "updated_at": "2026-01-09T15:31:00Z"
+    },
+    {
+      "id": "art_20260109_0013",
+      "slug": "fake-article-13-weather",
+      "status": "draft",
+      "title": "Fake test headline 13: Weather update for the region",
+      "theme": "weather",
+      "tags": [
+        "weather",
+        "wind",
+        "snow",
+        "transit"
+      ],
+      "geo": {
+        "scope": "global",
+        "place_name": null,
+        "fips": null
+      },
+      "source_cluster": {
+        "topic_id": "topic_fake_20260109_13",
+        "sources": [
+          {
+            "publisher": "Example Wire",
+            "url": "https://example.com/source/2026-01-09/13",
+            "published_at": "2026-01-09T19:39:00-06:00"
+          }
+        ]
+      },
+      "summary": [
+        "Test bullet one for article 13.",
+        "Test bullet two adds a little context for theme 'weather'.",
+        "Test bullet three notes what to watch next."
+      ],
+      "body_markdown": "## What happened\nThis is a fake article body for testing rendering, search, and filtering.\n\n## Why it matters\nIt helps validate layouts, tag pages, and detail views.\n\n## What to watch\nReplace with real content later.",
+      "created_at": "2026-01-09T15:26:00Z",
+      "updated_at": "2026-01-09T16:33:00Z"
+    },
+    {
+      "id": "art_20260109_0014",
+      "slug": "fake-article-14-local",
+      "status": "draft",
+      "title": "Fake test headline 14: Local update for the region",
+      "theme": "local",
+      "tags": [
+        "housing",
+        "permits",
+        "restaurants",
+        "events"
+      ],
+      "geo": {
+        "scope": "national",
+        "place_name": "United States",
+        "fips": null
+      },
+      "source_cluster": {
+        "topic_id": "topic_fake_20260109_14",
+        "sources": [
+          {
+            "publisher": "Example Wire",
+            "url": "https://example.com/source/2026-01-09/14",
+            "published_at": "2026-01-09T20:42:00-06:00"
+          }
+        ]
+      },
+      "summary": [
+        "Test bullet one for article 14.",
+        "Test bullet two adds a little context for theme 'local'.",
+        "Test bullet three notes what to watch next."
+      ],
+      "body_markdown": "## What happened\nThis is a fake article body for testing rendering, search, and filtering.\n\n## Why it matters\nIt helps validate layouts, tag pages, and detail views.\n\n## What to watch\nReplace with real content later.",
+      "created_at": "2026-01-09T16:28:00Z",
+      "updated_at": "2026-01-09T17:35:00Z"
+    },
+    {
+      "id": "art_20260109_0015",
+      "slug": "fake-article-15-business",
+      "status": "draft",
+      "title": "Fake test headline 15: Business update for the region",
+      "theme": "business",
+      "tags": [
+        "jobs",
+        "layoffs",
+        "startup",
+        "ai"
+      ],
+      "geo": {
+        "scope": "city",
+        "place_name": "Chicago, IL",
+        "fips": null
+      },
+      "source_cluster": {
+        "topic_id": "topic_fake_20260109_15",
+        "sources": [
+          {
+            "publisher": "Example Wire",
+            "url": "https://example.com/source/2026-01-09/15",
+            "published_at": "2026-01-09T21:45:00-06:00"
+          }
+        ]
+      },
+      "summary": [
+        "Test bullet one for article 15.",
+        "Test bullet two adds a little context for theme 'business'.",
+        "Test bullet three notes what to watch next."
+      ],
+      "body_markdown": "## What happened\nThis is a fake article body for testing rendering, search, and filtering.\n\n## Why it matters\nIt helps validate layouts, tag pages, and detail views.\n\n## What to watch\nReplace with real content later.",
+      "created_at": "2026-01-09T14:30:00Z",
+      "updated_at": "2026-01-09T15:37:00Z"
+    },
+    {
+      "id": "art_20260109_0016",
+      "slug": "fake-article-16-policy",
+      "status": "draft",
+      "title": "Fake test headline 16: Policy update for the region",
+      "theme": "policy",
+      "tags": [
+        "grants",
+        "infrastructure",
+        "budget",
+        "taxes"
+      ],
+      "geo": {
+        "scope": "county",
+        "place_name": "Cook County, IL",
+        "fips": "17031"
+      },
+      "source_cluster": {
+        "topic_id": "topic_fake_20260109_16",
+        "sources": [
+          {
+            "publisher": "Example Wire",
+            "url": "https://example.com/source/2026-01-09/16",
+            "published_at": "2026-01-09T22:48:00-06:00"
+          }
+        ]
+      },
+      "summary": [
+        "Test bullet one for article 16.",
+        "Test bullet two adds a little context for theme 'policy'.",
+        "Test bullet three notes what to watch next."
+      ],
+      "body_markdown": "## What happened\nThis is a fake article body for testing rendering, search, and filtering.\n\n## Why it matters\nIt helps validate layouts, tag pages, and detail views.\n\n## What to watch\nReplace with real content later.",
+      "created_at": "2026-01-09T15:32:00Z",
+      "updated_at": "2026-01-09T16:39:00Z"
+    },
+    {
+      "id": "art_20260109_0017",
+      "slug": "fake-article-17-health",
+      "status": "draft",
+      "title": "Fake test headline 17: Health update for the region",
+      "theme": "health",
+      "tags": [
+        "clinic",
+        "access",
+        "appointments",
+        "privacy"
+      ],
+      "geo": {
+        "scope": "state",
+        "place_name": "Illinois",
+        "fips": "17"
+      },
+      "source_cluster": {
+        "topic_id": "topic_fake_20260109_17",
+        "sources": [
+          {
+            "publisher": "Example Wire",
+            "url": "https://example.com/source/2026-01-09/17",
+            "published_at": "2026-01-09T23:51:00-06:00"
+          }
+        ]
+      },
+      "summary": [
+        "Test bullet one for article 17.",
+        "Test bullet two adds a little context for theme 'health'.",
+        "Test bullet three notes what to watch next."
+      ],
+      "body_markdown": "## What happened\nThis is a fake article body for testing rendering, search, and filtering.\n\n## Why it matters\nIt helps validate layouts, tag pages, and detail views.\n\n## What to watch\nReplace with real content later.",
+      "created_at": "2026-01-09T16:34:00Z",
+      "updated_at": "2026-01-09T17:41:00Z"
+    },
+    {
+      "id": "art_20260109_0018",
+      "slug": "fake-article-18-tech",
+      "status": "draft",
+      "title": "Fake test headline 18: Tech update for the region",
+      "theme": "tech",
+      "tags": [
+        "ai",
+        "privacy",
+        "startup",
+        "jobs"
+      ],
+      "geo": {
+        "scope": "metro",
+        "place_name": "Chicago, IL",
+        "fips": null
+      },
+      "source_cluster": {
+        "topic_id": "topic_fake_20260109_18",
+        "sources": [
+          {
+            "publisher": "Example Wire",
+            "url": "https://example.com/source/2026-01-09/18",
+            "published_at": "2026-01-09T00:54:00-06:00"
+          }
+        ]
+      },
+      "summary": [
+        "Test bullet one for article 18.",
+        "Test bullet two adds a little context for theme 'tech'.",
+        "Test bullet three notes what to watch next."
+      ],
+      "body_markdown": "## What happened\nThis is a fake article body for testing rendering, search, and filtering.\n\n## Why it matters\nIt helps validate layouts, tag pages, and detail views.\n\n## What to watch\nReplace with real content later.",
+      "created_at": "2026-01-09T14:36:00Z",
+      "updated_at": "2026-01-09T15:43:00Z"
+    },
+    {
+      "id": "art_20260109_0019",
+      "slug": "fake-article-19-macro",
+      "status": "draft",
+      "title": "Fake test headline 19: Macro update for the region",
+      "theme": "macro",
+      "tags": [
+        "usd",
+        "rates",
+        "oil",
+        "markets"
+      ],
+      "geo": {
+        "scope": "global",
+        "place_name": null,
+        "fips": null
+      },
+      "source_cluster": {
+        "topic_id": "topic_fake_20260109_19",
+        "sources": [
+          {
+            "publisher": "Example Wire",
+            "url": "https://example.com/source/2026-01-09/19",
+            "published_at": "2026-01-09T01:57:00-06:00"
+          }
+        ]
+      },
+      "summary": [
+        "Test bullet one for article 19.",
+        "Test bullet two adds a little context for theme 'macro'.",
+        "Test bullet three notes what to watch next."
+      ],
+      "body_markdown": "## What happened\nThis is a fake article body for testing rendering, search, and filtering.\n\n## Why it matters\nIt helps validate layouts, tag pages, and detail views.\n\n## What to watch\nReplace with real content later.",
+      "created_at": "2026-01-09T15:38:00Z",
+      "updated_at": "2026-01-09T16:45:00Z"
+    },
+    {
+      "id": "art_20260109_0020",
+      "slug": "fake-article-20-public-safety",
+      "status": "draft",
+      "title": "Fake test headline 20: Public Safety update for the region",
+      "theme": "public-safety",
+      "tags": [
+        "crime",
+        "data",
+        "court",
+        "privacy"
+      ],
+      "geo": {
+        "scope": "national",
+        "place_name": "United States",
+        "fips": null
+      },
+      "source_cluster": {
+        "topic_id": "topic_fake_20260109_20",
+        "sources": [
+          {
+            "publisher": "Example Wire",
+            "url": "https://example.com/source/2026-01-09/20",
+            "published_at": "2026-01-09T02:00:00-06:00"
+          }
+        ]
+      },
+      "summary": [
+        "Test bullet one for article 20.",
+        "Test bullet two adds a little context for theme 'public-safety'.",
+        "Test bullet three notes what to watch next."
+      ],
+      "body_markdown": "## What happened\nThis is a fake article body for testing rendering, search, and filtering.\n\n## Why it matters\nIt helps validate layouts, tag pages, and detail views.\n\n## What to watch\nReplace with real content later.",
+      "created_at": "2026-01-09T16:40:00Z",
+      "updated_at": "2026-01-09T17:47:00Z"
     }
   ]
 }
+```
