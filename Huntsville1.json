@@ -1,32 +1,27 @@
 {
 "date": "2026-01-09",
 "timezone": "America/Chicago",
-"generated_at": "2026-01-09T18:12:55Z",
+"generated_at": "2026-01-09T18:29:32Z",
 "source_scope": {
 "region_label": "North Alabama (Huntsville–Athens)",
-"notes": "5 stories for the Huntsville and Athens area, filtered to items published within the past ~12 hours (from ~00:12 to ~12:12 CST). Output schema reference: 
-
-Marrazzo.io_news
-
-"
+"notes": "Stories published within the past 12 hours for the Huntsville and Athens areas."
 },
 "articles": [
 {
 "id": "art_20260109_0001",
-"slug": "flood-watch-heavy-rain-tennessee-valley",
+"slug": "first-alert-heavy-rainfall-possible-flooding-north-alabama",
 "status": "published",
-"title": "Flood Watch issued as rounds of heavy rain move through the Tennessee Valley",
+"title": "First Alert: Flood Watch in effect as heavy rain and possible flooding target North Alabama",
 "theme": "weather",
 "tags": [
 "flood-watch",
 "heavy-rain",
-"thunderstorms",
-"road-conditions",
 "tennessee-valley",
-"north-alabama"
+"road-conditions",
+"forecast"
 ],
 "geo": {
-"scope": "region",
+"scope": "metro",
 "place_name": "Tennessee Valley (North Alabama)",
 "fips": null
 },
@@ -42,74 +37,34 @@ Marrazzo.io_news
 ]
 },
 "summary": [
-"WAFF reported a Flood Watch in effect for all North Alabama and Middle Tennessee counties through noon Saturday (Jan. 10). ",
-"Friday and Saturday were labeled “48 First Alert Weather Days” due to multiple rounds of locally heavy rainfall and potential flooding. ",
-"WAFF said a few embedded storms could bring isolated wind gusts over 30 mph, with highs in the mid to upper 60s. "
+"A Flood Watch is in effect through noon Saturday for all North Alabama and Middle Tennessee counties.",
+"Forecast messaging emphasizes multiple rounds of rain with pockets of heavier downpours that can cause roadway ponding and localized flooding.",
+"Watch for impacts during commutes and for additional alerts if rainfall bands stall or intensify."
 ],
-"body_markdown": "## What happened\nWAFF reported that a Flood Watch is in effect across North Alabama and Middle Tennessee as multiple rounds of rain move through the Tennessee Valley. \n\n## Key facts\nThe station said the Flood Watch runs through noon Saturday (Jan. 10). \nWAFF reported that rain was expected to become more widespread through the morning, with possible ponding on area roadways. \nThe forecast discussion noted occasional rumbles of thunder, and said a few embedded storms could produce isolated wind gusts over 30 miles per hour. \nWAFF said the greater severe-weather threat was expected to remain to the south and west, and that North Alabama could see a break from widespread rain during the afternoon and evening, staying cloudy with highs in the mid to upper 60s. \n\n## Context\nWAFF labeled both Friday and Saturday as “48 First Alert Weather Days,” tying the alert to the risk of heavy rainfall and flooding impacts across the Tennessee Valley. \n\n## What to watch\nWhether rainfall continues in waves into Saturday, and whether localized flooding or roadway ponding becomes more widespread during the watch period through noon Saturday. ",
-"created_at": "2026-01-09T18:12:55Z",
-"updated_at": "2026-01-09T18:12:55Z"
+"body_markdown": "## What happened\nA Flood Watch was issued for North Alabama as waves of rain move through the Tennessee Valley, with locally heavy rainfall possible.\n\n## Why it matters\nHeavy rain can quickly overwhelm drainage in low-lying areas and create hazardous driving conditions from standing water, especially during morning and evening travel.\n\n## What to watch\nHow quickly rainfall totals add up through the watch window, whether any localized flooding develops, and whether additional advisories or warnings are issued if storms train over the same areas.",
+"created_at": "2026-01-09T18:29:32Z",
+"updated_at": "2026-01-09T18:29:32Z"
 },
 {
 "id": "art_20260109_0002",
-"slug": "athens-career-center-opens-athens-state-campus",
+"slug": "kitchen-cops-cross-contamination-concerns-hazel-green",
 "status": "published",
-"title": "Athens Career Center opens on Athens State campus to serve Limestone County job seekers and employers",
-"theme": "civic",
-"tags": [
-"workforce",
-"career-center",
-"athens-state",
-"limestone-county",
-"job-services",
-"alabama-department-of-workforce"
-],
-"geo": {
-"scope": "city",
-"place_name": "Athens, AL",
-"fips": null
-},
-"source_cluster": {
-"topic_id": "topic_20260109_02",
-"sources": [
-{
-"publisher": "The News Courier",
-"url": "https://enewscourier.com/2026/01/09/athens-states-newest-asset-a-state-supported-career-center-to-boost-job-seekers-and-employers/
-",
-"published_at": "2026-01-09T10:47:00-06:00"
-}
-]
-},
-"summary": [
-"The News Courier reported that local and state leaders held a ribbon cutting this week for the Athens Career Center on the Athens State University campus. ",
-"Officials named in the report included Alabama Department of Workforce Secretary Greg J. Reed, Sen. Arthur Orr, Athens Mayor Ronnie Marks, Limestone County Commission Chair Collin Daly, and Athens State President Dr. Carol Wehlburg. ",
-"The center is located at Chasteen Hall (161 N. Clinton St., Suite 106, Athens) and is described as offering services such as resume assistance, job placement, and training support. "
-],
-"body_markdown": "## What happened\nThe News Courier reported that Athens State University and the Alabama Department of Workforce marked the opening of the Athens Career Center with a ribbon cutting involving local, state, and university leaders. \n\n## Key facts\nAccording to the report, Alabama Department of Workforce Secretary Greg J. Reed participated alongside Sen. Arthur Orr, Athens Mayor Ronnie Marks, Limestone County Commission Chair Collin Daly, and Athens State President Dr. Carol Wehlburg. \nThe News Courier described the Athens Career Center as a full-service extension of the state’s Workforce Pathways Division and a collaboration between Athens State and the Alabama Department of Workforce. \nThe report listed the location as Chasteen Hall on the Athens State campus at 161 North Clinton Street, Suite 106, in Athens. \nServices referenced in the article include resume assistance, job placement services, educational and vocational training assistance, and employee pre-screening. \n\n## Context\nThe News Courier framed the new Limestone County location as intended to support both job seekers and employers, and quoted the university describing the partnership as a step toward growth and development in the county. \n\n## What to watch\nHow the new center’s services are rolled out locally at the Athens State campus site, including any future announcements about programming or employer-facing support referenced in the report. ",
-"created_at": "2026-01-09T18:12:55Z",
-"updated_at": "2026-01-09T18:12:55Z"
-},
-{
-"id": "art_20260109_0003",
-"slug": "kitchen-cops-hazel-green-new-china-cafe-78",
-"status": "published",
-"title": "Kitchen Cops cite temperature and cross-contamination issue at Hazel Green restaurant in latest inspection scores",
+"title": "Kitchen Cops: Hazel Green restaurant cited for cross-contamination and food temperature issues",
 "theme": "health",
 "tags": [
 "restaurant-inspections",
-"kitchen-cops",
+"food-safety",
 "hazel-green",
 "madison-county",
-"food-safety",
-"inspection-scores"
+"health-score"
 ],
 "geo": {
 "scope": "county",
 "place_name": "Madison County, AL",
-"fips": null
+"fips": "01089"
 },
 "source_cluster": {
-"topic_id": "topic_20260109_03",
+"topic_id": "topic_20260109_02",
 "sources": [
 {
 "publisher": "WAFF 48",
@@ -120,27 +75,26 @@ Marrazzo.io_news
 ]
 },
 "summary": [
-"WAFF reported that New China Cafe in Hazel Green scored a 78, citing multiple food temperature violations and broken wires on two fryer baskets. ",
-"WAFF also reported an issue where cooked chicken was stored in the same cardboard box that had held raw chicken in the cooler; the box was discarded after inspectors pointed it out. ",
-"In the same report, WAFF said Payless Brothers minimart in Harvest scored an 82, with notes including sink water not hot enough, a dirty ice machine, and a bathroom lacking toilet paper or drying devices. "
+"Inspectors cited cross-contamination concerns and multiple food temperature violations at a Hazel Green restaurant.",
+"The report notes corrective action taken on-site after an issue was identified involving storage practices in a cooler.",
+"Future follow-ups and score changes will indicate whether corrective steps were sustained."
 ],
-"body_markdown": "## What happened\nWAFF published its “Kitchen Cops” update with early-2026 inspection scores and notes, including Madison County locations in the Huntsville area. \n\n## Key facts\nWAFF reported that New China Cafe in Hazel Green received a 78, citing multiple food temperature violations and broken wires on two fryer baskets. \nThe report also described an issue where cooked chicken was being stored in the same cardboard box that had held raw chicken in a cooler, and said the box was thrown out after inspectors pointed out the problem. \nWAFF reported that Payless Brothers minimart in Harvest scored an 82, noting that water at the three-compartment sink was not hot enough to meet state standards, and citing a dirty ice machine and a bathroom with no toilet paper or drying devices. \nWAFF also stated that there were no significant issues in Limestone County in this update. \n\n## Context\nThe WAFF report referenced county-by-county score sheets and inspection notes via linked documents as part of its roundup format. \n\n## What to watch\nAny follow-up inspection documentation linked in the report’s county score sheets, and whether future “Kitchen Cops” updates show changes in scores or corrected issues for the locations named. ",
-"created_at": "2026-01-09T18:12:55Z",
-"updated_at": "2026-01-09T18:12:55Z"
+"body_markdown": "## What happened\nA new restaurant inspection roundup highlighted violations tied to cross-contamination controls and food temperature standards at a Madison County location.\n\n## Why it matters\nTemperature control and separation of raw and cooked foods are core safeguards against foodborne illness; repeated violations can indicate process breakdowns in storage, prep, or monitoring.\n\n## What to watch\nWhether follow-up inspections reflect improved procedures (storage practices, temperature logs, and sanitation controls) and whether the score trends upward in subsequent reports.",
+"created_at": "2026-01-09T18:29:32Z",
+"updated_at": "2026-01-09T18:29:32Z"
 },
 {
-"id": "art_20260109_0004",
-"slug": "west-end-grill-earns-93-after-69-health-score",
+"id": "art_20260109_0003",
+"slug": "huntsville-restaurant-bounces-back-after-low-health-score",
 "status": "published",
-"title": "WAFF: West End Grill earns 93 after October inspection score of 69",
+"title": "Huntsville restaurant rebounds after low inspection score, earns 93 on follow-up",
 "theme": "health",
 "tags": [
 "health-inspection",
-"west-end-grill",
 "huntsville",
-"old-madison-pike",
+"restaurant-operations",
 "food-safety",
-"restaurant-operations"
+"score-improvement"
 ],
 "geo": {
 "scope": "city",
@@ -148,7 +102,7 @@ Marrazzo.io_news
 "fips": null
 },
 "source_cluster": {
-"topic_id": "topic_20260109_04",
+"topic_id": "topic_20260109_03",
 "sources": [
 {
 "publisher": "WAFF 48",
@@ -159,32 +113,69 @@ Marrazzo.io_news
 ]
 },
 "summary": [
-"WAFF reported that West End Grill on Old Madison Pike received a 93 on its first inspection since October, after scoring a 69 previously. ",
-"WAFF listed October findings that included flies in the kitchen, a dishwashing machine with no chlorine sanitizer, and multiple food temperature issues. ",
-"Owner Kevin Brakefield told WAFF the 69 was his first low score since managing the restaurant in 2011 and said staff refocused on daily checklists and temperature checks. "
+"A Huntsville restaurant improved its score to 93 after a previous score of 69 reported from an October inspection.",
+"The report ties the rebound to renewed operational focus, including checklist discipline and more frequent temperature monitoring.",
+"Watch whether the higher score holds across the next inspection cycle."
 ],
-"body_markdown": "## What happened\nWAFF reported that a Huntsville restaurant increased its health inspection score after a low score in October, following internal changes described by the owner. \n\n## Key facts\nWAFF reported that West End Grill on Old Madison Pike received a 93 in its first inspection since October, after scoring a 69 on the October inspection. \nThe station reported that the October score of 69 followed inspector notes including flies in the kitchen, a dishwashing machine with no chlorine sanitizer, multiple food temperature issues, and an employee cleaning a knife in the wrong sink. \nOwner Kevin Brakefield told WAFF he was “devastated” by the 69, and said it was his first low score since managing the restaurant in 2011. \nWAFF reported that Brakefield said the restaurant called a staff meeting and refocused on checklist execution, including doing temperature checks on hot and cold items multiple times per day and keeping refrigerators and coolers properly stacked and labeled. \n\n## Context\nThe WAFF report framed the score change as a follow-up to the October inspection and included the owner’s description of operational steps taken after the earlier findings. \n\n## What to watch\nWhether the restaurant maintains similar scores in subsequent inspections, and whether future public inspection reports reference the same categories WAFF described (sanitizer use, temperature controls, and kitchen practices). ",
-"created_at": "2026-01-09T18:12:55Z",
-"updated_at": "2026-01-09T18:12:55Z"
+"body_markdown": "## What happened\nA Huntsville restaurant received a substantially higher health inspection score following an earlier low score, according to local reporting.\n\n## Why it matters\nInspection scores can reflect day-to-day execution of sanitation and temperature controls; a large swing suggests meaningful operational changes (or lapses) that directly affect food safety.\n\n## What to watch\nConsistency: whether future inspections show sustained compliance in the same categories that drove the earlier low score (sanitizer use, temperature control, and kitchen cleanliness).",
+"created_at": "2026-01-09T18:29:32Z",
+"updated_at": "2026-01-09T18:29:32Z"
+},
+{
+"id": "art_20260109_0004",
+"slug": "athens-career-center-opens-athens-state-campus",
+"status": "published",
+"title": "Athens Career Center opens at Athens State to expand job-seeker and employer support",
+"theme": "civic",
+"tags": [
+"workforce",
+"career-services",
+"athens-state",
+"limestone-county",
+"jobs"
+],
+"geo": {
+"scope": "city",
+"place_name": "Athens, AL",
+"fips": null
+},
+"source_cluster": {
+"topic_id": "topic_20260109_04",
+"sources": [
+{
+"publisher": "The News Courier",
+"url": "https://enewscourier.com/2026/01/09/athens-states-newest-asset-a-state-supported-career-center-to-boost-job-seekers-and-employers/
+",
+"published_at": "2026-01-09T10:47:00-06:00"
+}
+]
+},
+"summary": [
+"A new state-supported career center opened on the Athens State University campus to serve Limestone County.",
+"The center is intended to provide resources for job hunters and employers, including direct support for career development.",
+"Watch for upcoming announcements on programming, employer partnerships, and service hours as operations ramp up."
+],
+"body_markdown": "## What happened\nLocal and state leaders marked the opening of the Athens Career Center on the Athens State University campus.\n\n## Why it matters\nWorkforce centers can reduce friction for job matching by centralizing resume help, training pathways, and employer screening—especially valuable when hiring needs shift quickly.\n\n## What to watch\nHow quickly the center scales services, which employers engage first, and whether new training or placement programs are added for high-demand local roles.",
+"created_at": "2026-01-09T18:29:32Z",
+"updated_at": "2026-01-09T18:29:32Z"
 },
 {
 "id": "art_20260109_0005",
-"slug": "huntsville-federal-grand-jury-ice-officer-assault-charge",
+"slug": "federal-grand-jury-charges-assault-ice-officer-dekalb-traffic-stop",
 "status": "published",
-"title": "WAFF: Huntsville federal grand jury charges man with assaulting ICE officer during DeKalb County traffic stop",
+"title": "Federal grand jury in Huntsville charges man with assaulting ICE officer during DeKalb County traffic stop",
 "theme": "courts",
 "tags": [
-"federal-grand-jury",
+"federal-court",
+"grand-jury",
 "ice",
-"assault-charge",
 "dekalb-county",
-"traffic-stop",
 "indictment"
 ],
 "geo": {
 "scope": "county",
 "place_name": "DeKalb County, AL",
-"fips": null
+"fips": "01049"
 },
 "source_cluster": {
 "topic_id": "topic_20260109_05",
@@ -198,13 +189,13 @@ Marrazzo.io_news
 ]
 },
 "summary": [
-"WAFF reported that a Huntsville federal grand jury charged a Guatemalan national with assaulting a U.S. Immigration and Customs Enforcement (ICE) officer. ",
-"According to WAFF, Antonio Juan-Juan, 30, is accused of biting an ICE officer during a traffic stop in DeKalb County. ",
-"WAFF reported that the maximum penalty is eight years in prison and that ICE and the DeKalb County Sheriff’s Office conducted a joint investigation. "
+"A Huntsville federal grand jury charged a man with assaulting a U.S. Immigration and Customs Enforcement (ICE) officer.",
+"The allegation stems from a traffic stop in DeKalb County and includes an accusation that the officer was bitten.",
+"Watch for initial court proceedings and any additional charging details released in filings."
 ],
-"body_markdown": "## What happened\nWAFF reported a federal charging update tied to North Alabama, involving a Huntsville federal grand jury and an allegation of assault on an ICE officer during a traffic stop. \n\n## Key facts\nWAFF reported that a Huntsville federal grand jury charged a Guatemalan national with assaulting a U.S. Immigration and Customs Enforcement (ICE) officer. \nThe station reported the defendant as Antonio Juan-Juan, 30, and said he is accused of biting an ICE officer during a traffic stop in DeKalb County. \nWAFF reported that the maximum penalty for the charged offense is eight years imprisonment. \nWAFF said the investigation was a joint effort between ICE agents and the DeKalb County Sheriff’s Office. \n\n## Context\nThe report identifies the allegation as occurring in DeKalb County and frames the case as a federal grand jury charge associated with Huntsville. \n\n## What to watch\nAny additional public details released by investigators or through subsequent reporting about the case, beyond the charge and maximum penalty described by WAFF. ",
-"created_at": "2026-01-09T18:12:55Z",
-"updated_at": "2026-01-09T18:12:55Z"
+"body_markdown": "## What happened\nA federal grand jury seated in Huntsville returned a charge alleging assault on an ICE officer during a traffic stop in DeKalb County.\n\n## Why it matters\nFederal assault charges involving law enforcement typically carry significant penalties and can move quickly once an indictment is filed, shaping the timeline for court hearings and detention decisions.\n\n## What to watch\nUpcoming court appearances, any motion practice that clarifies the allegations, and whether additional counts or related charges are filed as the case proceeds.",
+"created_at": "2026-01-09T18:29:32Z",
+"updated_at": "2026-01-09T18:29:32Z"
 }
 ]
 }
