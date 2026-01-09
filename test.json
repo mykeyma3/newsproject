@@ -1,731 +1,210 @@
 {
-  "date": "2026-01-09",
-  "timezone": "America/Chicago",
-  "generated_at": "2026-01-09T16:05:12Z",
-  "source_scope": {
-    "region_label": "Chicago Metro",
-    "notes": "Fake dataset for UI testing only."
-  },
-  "articles": [
-    {
-      "id": "art_20260109_0001",
-      "slug": "fake-article-01-local-economy",
-      "status": "published",
-      "title": "Fake test headline 01: Local Economy update for the region",
-      "theme": "local-economy",
-      "tags": [
-        "snow",
-        "markets",
-        "taxes",
-        "jobs"
-      ],
-      "geo": {
-        "scope": "national",
-        "place_name": "United States",
-        "fips": null
-      },
-      "source_cluster": {
-        "topic_id": "topic_fake_20260109_01",
-        "sources": [
-          {
-            "publisher": "Example Wire",
-            "url": "https://example.com/source/2026-01-09/01",
-            "published_at": "2026-01-09T07:03:00-06:00"
-          }
-        ]
-      },
-      "summary": [
-        "Test bullet one for article 01.",
-        "Test bullet two adds a little context for theme 'local-economy'.",
-        "Test bullet three notes what to watch next."
-      ],
-      "body_markdown": "## What happened\nThis is a fake article body for testing rendering, search, and filtering.\n\n## Why it matters\nIt helps validate layouts, tag pages, and detail views.\n\n## What to watch\nReplace with real content later.",
-      "created_at": "2026-01-09T15:02:00Z",
-      "updated_at": "2026-01-09T16:09:00Z"
-    },
-    {
-      "id": "art_20260109_0002",
-      "slug": "fake-article-02-tech",
-      "status": "published",
-      "title": "Fake test headline 02: Tech update for the region",
-      "theme": "tech",
-      "tags": [
-        "wind",
-        "court",
-        "privacy",
-        "weekend"
-      ],
-      "geo": {
-        "scope": "city",
-        "place_name": "Chicago, IL",
-        "fips": null
-      },
-      "source_cluster": {
-        "topic_id": "topic_fake_20260109_02",
-        "sources": [
-          {
-            "publisher": "Example Wire",
-            "url": "https://example.com/source/2026-01-09/02",
-            "published_at": "2026-01-09T08:06:00-06:00"
-          }
-        ]
-      },
-      "summary": [
-        "Test bullet one for article 02.",
-        "Test bullet two adds a little context for theme 'tech'.",
-        "Test bullet three notes what to watch next."
-      ],
-      "body_markdown": "## What happened\nThis is a fake article body for testing rendering, search, and filtering.\n\n## Why it matters\nIt helps validate layouts, tag pages, and detail views.\n\n## What to watch\nReplace with real content later.",
-      "created_at": "2026-01-09T16:04:00Z",
-      "updated_at": "2026-01-09T17:11:00Z"
-    },
-    {
-      "id": "art_20260109_0003",
-      "slug": "fake-article-03-weather",
-      "status": "published",
-      "title": "Fake test headline 03: Weather update for the region",
-      "theme": "weather",
-      "tags": [
-        "infrastructure",
-        "events",
-        "ai",
-        "restaurants"
-      ],
-      "geo": {
-        "scope": "global",
-        "place_name": null,
-        "fips": null
-      },
-      "source_cluster": {
-        "topic_id": "topic_fake_20260109_03",
-        "sources": [
-          {
-            "publisher": "Example Wire",
-            "url": "https://example.com/source/2026-01-09/03",
-            "published_at": "2026-01-09T09:09:00-06:00"
-          }
-        ]
-      },
-      "summary": [
-        "Test bullet one for article 03.",
-        "Test bullet two adds a little context for theme 'weather'.",
-        "Test bullet three notes what to watch next."
-      ],
-      "body_markdown": "## What happened\nThis is a fake article body for testing rendering, search, and filtering.\n\n## Why it matters\nIt helps validate layouts, tag pages, and detail views.\n\n## What to watch\nReplace with real content later.",
-      "created_at": "2026-01-09T14:06:00Z",
-      "updated_at": "2026-01-09T15:13:00Z"
-    },
-    {
-      "id": "art_20260109_0004",
-      "slug": "fake-article-04-health",
-      "status": "published",
-      "title": "Fake test headline 04: Health update for the region",
-      "theme": "health",
-      "tags": [
-        "transit",
-        "cta",
-        "service",
-        "startup"
-      ],
-      "geo": {
-        "scope": "county",
-        "place_name": "Cook County, IL",
-        "fips": "17031"
-      },
-      "source_cluster": {
-        "topic_id": "topic_fake_20260109_04",
-        "sources": [
-          {
-            "publisher": "Example Wire",
-            "url": "https://example.com/source/2026-01-09/04",
-            "published_at": "2026-01-09T10:12:00-06:00"
-          }
-        ]
-      },
-      "summary": [
-        "Test bullet one for article 04.",
-        "Test bullet two adds a little context for theme 'health'.",
-        "Test bullet three notes what to watch next."
-      ],
-      "body_markdown": "## What happened\nThis is a fake article body for testing rendering, search, and filtering.\n\n## Why it matters\nIt helps validate layouts, tag pages, and detail views.\n\n## What to watch\nReplace with real content later.",
-      "created_at": "2026-01-09T15:08:00Z",
-      "updated_at": "2026-01-09T16:15:00Z"
-    },
-    {
-      "id": "art_20260109_0005",
-      "slug": "fake-article-05-macro",
-      "status": "published",
-      "title": "Fake test headline 05: Macro update for the region",
-      "theme": "macro",
-      "tags": [
-        "oil",
-        "usd",
-        "rates",
-        "markets"
-      ],
-      "geo": {
-        "scope": "metro",
-        "place_name": "Chicago, IL",
-        "fips": null
-      },
-      "source_cluster": {
-        "topic_id": "topic_fake_20260109_05",
-        "sources": [
-          {
-            "publisher": "Example Wire",
-            "url": "https://example.com/source/2026-01-09/05",
-            "published_at": "2026-01-09T11:15:00-06:00"
-          }
-        ]
-      },
-      "summary": [
-        "Test bullet one for article 05.",
-        "Test bullet two adds a little context for theme 'macro'.",
-        "Test bullet three notes what to watch next."
-      ],
-      "body_markdown": "## What happened\nThis is a fake article body for testing rendering, search, and filtering.\n\n## Why it matters\nIt helps validate layouts, tag pages, and detail views.\n\n## What to watch\nReplace with real content later.",
-      "created_at": "2026-01-09T16:10:00Z",
-      "updated_at": "2026-01-09T17:17:00Z"
-    },
-    {
-      "id": "art_20260109_0006",
-      "slug": "fake-article-06-public-safety",
-      "status": "published",
-      "title": "Fake test headline 06: Public Safety update for the region",
-      "theme": "public-safety",
-      "tags": [
-        "crime",
-        "data",
-        "privacy",
-        "court"
-      ],
-      "geo": {
-        "scope": "state",
-        "place_name": "Illinois",
-        "fips": "17"
-      },
-      "source_cluster": {
-        "topic_id": "topic_fake_20260109_06",
-        "sources": [
-          {
-            "publisher": "Example Wire",
-            "url": "https://example.com/source/2026-01-09/06",
-            "published_at": "2026-01-09T12:18:00-06:00"
-          }
-        ]
-      },
-      "summary": [
-        "Test bullet one for article 06.",
-        "Test bullet two adds a little context for theme 'public-safety'.",
-        "Test bullet three notes what to watch next."
-      ],
-      "body_markdown": "## What happened\nThis is a fake article body for testing rendering, search, and filtering.\n\n## Why it matters\nIt helps validate layouts, tag pages, and detail views.\n\n## What to watch\nReplace with real content later.",
-      "created_at": "2026-01-09T14:12:00Z",
-      "updated_at": "2026-01-09T15:19:00Z"
-    },
-    {
-      "id": "art_20260109_0007",
-      "slug": "fake-article-07-culture",
-      "status": "published",
-      "title": "Fake test headline 07: Culture update for the region",
-      "theme": "culture",
-      "tags": [
-        "music",
-        "events",
-        "restaurants",
-        "weekend"
-      ],
-      "geo": {
-        "scope": "city",
-        "place_name": "Chicago, IL",
-        "fips": null
-      },
-      "source_cluster": {
-        "topic_id": "topic_fake_20260109_07",
-        "sources": [
-          {
-            "publisher": "Example Wire",
-            "url": "https://example.com/source/2026-01-09/07",
-            "published_at": "2026-01-09T13:21:00-06:00"
-          }
-        ]
-      },
-      "summary": [
-        "Test bullet one for article 07.",
-        "Test bullet two adds a little context for theme 'culture'.",
-        "Test bullet three notes what to watch next."
-      ],
-      "body_markdown": "## What happened\nThis is a fake article body for testing rendering, search, and filtering.\n\n## Why it matters\nIt helps validate layouts, tag pages, and detail views.\n\n## What to watch\nReplace with real content later.",
-      "created_at": "2026-01-09T15:14:00Z",
-      "updated_at": "2026-01-09T16:21:00Z"
-    },
-    {
-      "id": "art_20260109_0008",
-      "slug": "fake-article-08-business",
-      "status": "published",
-      "title": "Fake test headline 08: Business update for the region",
-      "theme": "business",
-      "tags": [
-        "startup",
-        "ai",
-        "jobs",
-        "privacy"
-      ],
-      "geo": {
-        "scope": "metro",
-        "place_name": "Chicago, IL",
-        "fips": null
-      },
-      "source_cluster": {
-        "topic_id": "topic_fake_20260109_08",
-        "sources": [
-          {
-            "publisher": "Example Wire",
-            "url": "https://example.com/source/2026-01-09/08",
-            "published_at": "2026-01-09T14:24:00-06:00"
-          }
-        ]
-      },
-      "summary": [
-        "Test bullet one for article 08.",
-        "Test bullet two adds a little context for theme 'business'.",
-        "Test bullet three notes what to watch next."
-      ],
-      "body_markdown": "## What happened\nThis is a fake article body for testing rendering, search, and filtering.\n\n## Why it matters\nIt helps validate layouts, tag pages, and detail views.\n\n## What to watch\nReplace with real content later.",
-      "created_at": "2026-01-09T16:16:00Z",
-      "updated_at": "2026-01-09T17:23:00Z"
-    },
-    {
-      "id": "art_20260109_0009",
-      "slug": "fake-article-09-local",
-      "status": "published",
-      "title": "Fake test headline 09: Local update for the region",
-      "theme": "local",
-      "tags": [
-        "housing",
-        "permits",
-        "construction",
-        "taxes"
-      ],
-      "geo": {
-        "scope": "county",
-        "place_name": "Cook County, IL",
-        "fips": "17031"
-      },
-      "source_cluster": {
-        "topic_id": "topic_fake_20260109_09",
-        "sources": [
-          {
-            "publisher": "Example Wire",
-            "url": "https://example.com/source/2026-01-09/09",
-            "published_at": "2026-01-09T15:27:00-06:00"
-          }
-        ]
-      },
-      "summary": [
-        "Test bullet one for article 09.",
-        "Test bullet two adds a little context for theme 'local'.",
-        "Test bullet three notes what to watch next."
-      ],
-      "body_markdown": "## What happened\nThis is a fake article body for testing rendering, search, and filtering.\n\n## Why it matters\nIt helps validate layouts, tag pages, and detail views.\n\n## What to watch\nReplace with real content later.",
-      "created_at": "2026-01-09T14:18:00Z",
-      "updated_at": "2026-01-09T15:25:00Z"
-    },
-    {
-      "id": "art_20260109_0010",
-      "slug": "fake-article-10-policy",
-      "status": "published",
-      "title": "Fake test headline 10: Policy update for the region",
-      "theme": "policy",
-      "tags": [
-        "grants",
-        "infrastructure",
-        "taxes",
-        "budget"
-      ],
-      "geo": {
-        "scope": "state",
-        "place_name": "Illinois",
-        "fips": "17"
-      },
-      "source_cluster": {
-        "topic_id": "topic_fake_20260109_10",
-        "sources": [
-          {
-            "publisher": "Example Wire",
-            "url": "https://example.com/source/2026-01-09/10",
-            "published_at": "2026-01-09T16:30:00-06:00"
-          }
-        ]
-      },
-      "summary": [
-        "Test bullet one for article 10.",
-        "Test bullet two adds a little context for theme 'policy'.",
-        "Test bullet three notes what to watch next."
-      ],
-      "body_markdown": "## What happened\nThis is a fake article body for testing rendering, search, and filtering.\n\n## Why it matters\nIt helps validate layouts, tag pages, and detail views.\n\n## What to watch\nReplace with real content later.",
-      "created_at": "2026-01-09T15:20:00Z",
-      "updated_at": "2026-01-09T16:27:00Z"
-    },
-    {
-      "id": "art_20260109_0011",
-      "slug": "fake-article-11-sports",
-      "status": "published",
-      "title": "Fake test headline 11: Sports update for the region",
-      "theme": "sports",
-      "tags": [
-        "injury",
-        "roster",
-        "weekend",
-        "events"
-      ],
-      "geo": {
-        "scope": "metro",
-        "place_name": "Chicago, IL",
-        "fips": null
-      },
-      "source_cluster": {
-        "topic_id": "topic_fake_20260109_11",
-        "sources": [
-          {
-            "publisher": "Example Wire",
-            "url": "https://example.com/source/2026-01-09/11",
-            "published_at": "2026-01-09T17:33:00-06:00"
-          }
-        ]
-      },
-      "summary": [
-        "Test bullet one for article 11.",
-        "Test bullet two adds a little context for theme 'sports'.",
-        "Test bullet three notes what to watch next."
-      ],
-      "body_markdown": "## What happened\nThis is a fake article body for testing rendering, search, and filtering.\n\n## Why it matters\nIt helps validate layouts, tag pages, and detail views.\n\n## What to watch\nReplace with real content later.",
-      "created_at": "2026-01-09T16:22:00Z",
-      "updated_at": "2026-01-09T17:29:00Z"
-    },
-    {
-      "id": "art_20260109_0012",
-      "slug": "fake-article-12-civic",
-      "status": "published",
-      "title": "Fake test headline 12: Civic update for the region",
-      "theme": "civic",
-      "tags": [
-        "budget",
-        "schools",
-        "court",
-        "data"
-      ],
-      "geo": {
-        "scope": "city",
-        "place_name": "Chicago, IL",
-        "fips": null
-      },
-      "source_cluster": {
-        "topic_id": "topic_fake_20260109_12",
-        "sources": [
-          {
-            "publisher": "Example Wire",
-            "url": "https://example.com/source/2026-01-09/12",
-            "published_at": "2026-01-09T18:36:00-06:00"
-          }
-        ]
-      },
-      "summary": [
-        "Test bullet one for article 12.",
-        "Test bullet two adds a little context for theme 'civic'.",
-        "Test bullet three notes what to watch next."
-      ],
-      "body_markdown": "## What happened\nThis is a fake article body for testing rendering, search, and filtering.\n\n## Why it matters\nIt helps validate layouts, tag pages, and detail views.\n\n## What to watch\nReplace with real content later.",
-      "created_at": "2026-01-09T14:24:00Z",
-      "updated_at": "2026-01-09T15:31:00Z"
-    },
-    {
-      "id": "art_20260109_0013",
-      "slug": "fake-article-13-weather",
-      "status": "draft",
-      "title": "Fake test headline 13: Weather update for the region",
-      "theme": "weather",
-      "tags": [
-        "weather",
-        "wind",
-        "snow",
-        "transit"
-      ],
-      "geo": {
-        "scope": "global",
-        "place_name": null,
-        "fips": null
-      },
-      "source_cluster": {
-        "topic_id": "topic_fake_20260109_13",
-        "sources": [
-          {
-            "publisher": "Example Wire",
-            "url": "https://example.com/source/2026-01-09/13",
-            "published_at": "2026-01-09T19:39:00-06:00"
-          }
-        ]
-      },
-      "summary": [
-        "Test bullet one for article 13.",
-        "Test bullet two adds a little context for theme 'weather'.",
-        "Test bullet three notes what to watch next."
-      ],
-      "body_markdown": "## What happened\nThis is a fake article body for testing rendering, search, and filtering.\n\n## Why it matters\nIt helps validate layouts, tag pages, and detail views.\n\n## What to watch\nReplace with real content later.",
-      "created_at": "2026-01-09T15:26:00Z",
-      "updated_at": "2026-01-09T16:33:00Z"
-    },
-    {
-      "id": "art_20260109_0014",
-      "slug": "fake-article-14-local",
-      "status": "draft",
-      "title": "Fake test headline 14: Local update for the region",
-      "theme": "local",
-      "tags": [
-        "housing",
-        "permits",
-        "restaurants",
-        "events"
-      ],
-      "geo": {
-        "scope": "national",
-        "place_name": "United States",
-        "fips": null
-      },
-      "source_cluster": {
-        "topic_id": "topic_fake_20260109_14",
-        "sources": [
-          {
-            "publisher": "Example Wire",
-            "url": "https://example.com/source/2026-01-09/14",
-            "published_at": "2026-01-09T20:42:00-06:00"
-          }
-        ]
-      },
-      "summary": [
-        "Test bullet one for article 14.",
-        "Test bullet two adds a little context for theme 'local'.",
-        "Test bullet three notes what to watch next."
-      ],
-      "body_markdown": "## What happened\nThis is a fake article body for testing rendering, search, and filtering.\n\n## Why it matters\nIt helps validate layouts, tag pages, and detail views.\n\n## What to watch\nReplace with real content later.",
-      "created_at": "2026-01-09T16:28:00Z",
-      "updated_at": "2026-01-09T17:35:00Z"
-    },
-    {
-      "id": "art_20260109_0015",
-      "slug": "fake-article-15-business",
-      "status": "draft",
-      "title": "Fake test headline 15: Business update for the region",
-      "theme": "business",
-      "tags": [
-        "jobs",
-        "layoffs",
-        "startup",
-        "ai"
-      ],
-      "geo": {
-        "scope": "city",
-        "place_name": "Chicago, IL",
-        "fips": null
-      },
-      "source_cluster": {
-        "topic_id": "topic_fake_20260109_15",
-        "sources": [
-          {
-            "publisher": "Example Wire",
-            "url": "https://example.com/source/2026-01-09/15",
-            "published_at": "2026-01-09T21:45:00-06:00"
-          }
-        ]
-      },
-      "summary": [
-        "Test bullet one for article 15.",
-        "Test bullet two adds a little context for theme 'business'.",
-        "Test bullet three notes what to watch next."
-      ],
-      "body_markdown": "## What happened\nThis is a fake article body for testing rendering, search, and filtering.\n\n## Why it matters\nIt helps validate layouts, tag pages, and detail views.\n\n## What to watch\nReplace with real content later.",
-      "created_at": "2026-01-09T14:30:00Z",
-      "updated_at": "2026-01-09T15:37:00Z"
-    },
-    {
-      "id": "art_20260109_0016",
-      "slug": "fake-article-16-policy",
-      "status": "draft",
-      "title": "Fake test headline 16: Policy update for the region",
-      "theme": "policy",
-      "tags": [
-        "grants",
-        "infrastructure",
-        "budget",
-        "taxes"
-      ],
-      "geo": {
-        "scope": "county",
-        "place_name": "Cook County, IL",
-        "fips": "17031"
-      },
-      "source_cluster": {
-        "topic_id": "topic_fake_20260109_16",
-        "sources": [
-          {
-            "publisher": "Example Wire",
-            "url": "https://example.com/source/2026-01-09/16",
-            "published_at": "2026-01-09T22:48:00-06:00"
-          }
-        ]
-      },
-      "summary": [
-        "Test bullet one for article 16.",
-        "Test bullet two adds a little context for theme 'policy'.",
-        "Test bullet three notes what to watch next."
-      ],
-      "body_markdown": "## What happened\nThis is a fake article body for testing rendering, search, and filtering.\n\n## Why it matters\nIt helps validate layouts, tag pages, and detail views.\n\n## What to watch\nReplace with real content later.",
-      "created_at": "2026-01-09T15:32:00Z",
-      "updated_at": "2026-01-09T16:39:00Z"
-    },
-    {
-      "id": "art_20260109_0017",
-      "slug": "fake-article-17-health",
-      "status": "draft",
-      "title": "Fake test headline 17: Health update for the region",
-      "theme": "health",
-      "tags": [
-        "clinic",
-        "access",
-        "appointments",
-        "privacy"
-      ],
-      "geo": {
-        "scope": "state",
-        "place_name": "Illinois",
-        "fips": "17"
-      },
-      "source_cluster": {
-        "topic_id": "topic_fake_20260109_17",
-        "sources": [
-          {
-            "publisher": "Example Wire",
-            "url": "https://example.com/source/2026-01-09/17",
-            "published_at": "2026-01-09T23:51:00-06:00"
-          }
-        ]
-      },
-      "summary": [
-        "Test bullet one for article 17.",
-        "Test bullet two adds a little context for theme 'health'.",
-        "Test bullet three notes what to watch next."
-      ],
-      "body_markdown": "## What happened\nThis is a fake article body for testing rendering, search, and filtering.\n\n## Why it matters\nIt helps validate layouts, tag pages, and detail views.\n\n## What to watch\nReplace with real content later.",
-      "created_at": "2026-01-09T16:34:00Z",
-      "updated_at": "2026-01-09T17:41:00Z"
-    },
-    {
-      "id": "art_20260109_0018",
-      "slug": "fake-article-18-tech",
-      "status": "draft",
-      "title": "Fake test headline 18: Tech update for the region",
-      "theme": "tech",
-      "tags": [
-        "ai",
-        "privacy",
-        "startup",
-        "jobs"
-      ],
-      "geo": {
-        "scope": "metro",
-        "place_name": "Chicago, IL",
-        "fips": null
-      },
-      "source_cluster": {
-        "topic_id": "topic_fake_20260109_18",
-        "sources": [
-          {
-            "publisher": "Example Wire",
-            "url": "https://example.com/source/2026-01-09/18",
-            "published_at": "2026-01-09T00:54:00-06:00"
-          }
-        ]
-      },
-      "summary": [
-        "Test bullet one for article 18.",
-        "Test bullet two adds a little context for theme 'tech'.",
-        "Test bullet three notes what to watch next."
-      ],
-      "body_markdown": "## What happened\nThis is a fake article body for testing rendering, search, and filtering.\n\n## Why it matters\nIt helps validate layouts, tag pages, and detail views.\n\n## What to watch\nReplace with real content later.",
-      "created_at": "2026-01-09T14:36:00Z",
-      "updated_at": "2026-01-09T15:43:00Z"
-    },
-    {
-      "id": "art_20260109_0019",
-      "slug": "fake-article-19-macro",
-      "status": "draft",
-      "title": "Fake test headline 19: Macro update for the region",
-      "theme": "macro",
-      "tags": [
-        "usd",
-        "rates",
-        "oil",
-        "markets"
-      ],
-      "geo": {
-        "scope": "global",
-        "place_name": null,
-        "fips": null
-      },
-      "source_cluster": {
-        "topic_id": "topic_fake_20260109_19",
-        "sources": [
-          {
-            "publisher": "Example Wire",
-            "url": "https://example.com/source/2026-01-09/19",
-            "published_at": "2026-01-09T01:57:00-06:00"
-          }
-        ]
-      },
-      "summary": [
-        "Test bullet one for article 19.",
-        "Test bullet two adds a little context for theme 'macro'.",
-        "Test bullet three notes what to watch next."
-      ],
-      "body_markdown": "## What happened\nThis is a fake article body for testing rendering, search, and filtering.\n\n## Why it matters\nIt helps validate layouts, tag pages, and detail views.\n\n## What to watch\nReplace with real content later.",
-      "created_at": "2026-01-09T15:38:00Z",
-      "updated_at": "2026-01-09T16:45:00Z"
-    },
-    {
-      "id": "art_20260109_0020",
-      "slug": "fake-article-20-public-safety",
-      "status": "draft",
-      "title": "Fake test headline 20: Public Safety update for the region",
-      "theme": "public-safety",
-      "tags": [
-        "crime",
-        "data",
-        "court",
-        "privacy"
-      ],
-      "geo": {
-        "scope": "national",
-        "place_name": "United States",
-        "fips": null
-      },
-      "source_cluster": {
-        "topic_id": "topic_fake_20260109_20",
-        "sources": [
-          {
-            "publisher": "Example Wire",
-            "url": "https://example.com/source/2026-01-09/20",
-            "published_at": "2026-01-09T02:00:00-06:00"
-          }
-        ]
-      },
-      "summary": [
-        "Test bullet one for article 20.",
-        "Test bullet two adds a little context for theme 'public-safety'.",
-        "Test bullet three notes what to watch next."
-      ],
-      "body_markdown": "## What happened\nThis is a fake article body for testing rendering, search, and filtering.\n\n## Why it matters\nIt helps validate layouts, tag pages, and detail views.\n\n## What to watch\nReplace with real content later.",
-      "created_at": "2026-01-09T16:40:00Z",
-      "updated_at": "2026-01-09T17:47:00Z"
-    }
-  ]
+"date": "2026-01-09",
+"timezone": "America/Chicago",
+"generated_at": "2026-01-09T18:12:55Z",
+"source_scope": {
+"region_label": "North Alabama (Huntsville–Athens)",
+"notes": "5 stories for the Huntsville and Athens area, filtered to items published within the past ~12 hours (from ~00:12 to ~12:12 CST). Output schema reference: 
+
+Marrazzo.io_news
+
+"
+},
+"articles": [
+{
+"id": "art_20260109_0001",
+"slug": "flood-watch-heavy-rain-tennessee-valley",
+"status": "published",
+"title": "Flood Watch issued as rounds of heavy rain move through the Tennessee Valley",
+"theme": "weather",
+"tags": [
+"flood-watch",
+"heavy-rain",
+"thunderstorms",
+"road-conditions",
+"tennessee-valley",
+"north-alabama"
+],
+"geo": {
+"scope": "region",
+"place_name": "Tennessee Valley (North Alabama)",
+"fips": null
+},
+"source_cluster": {
+"topic_id": "topic_20260109_01",
+"sources": [
+{
+"publisher": "WAFF 48",
+"url": "https://www.waff.com/2026/01/09/first-alert-heavy-rainfall-possible-flooding/
+",
+"published_at": "2026-01-09T04:33:00-06:00"
+}
+]
+},
+"summary": [
+"WAFF reported a Flood Watch in effect for all North Alabama and Middle Tennessee counties through noon Saturday (Jan. 10). ",
+"Friday and Saturday were labeled “48 First Alert Weather Days” due to multiple rounds of locally heavy rainfall and potential flooding. ",
+"WAFF said a few embedded storms could bring isolated wind gusts over 30 mph, with highs in the mid to upper 60s. "
+],
+"body_markdown": "## What happened\nWAFF reported that a Flood Watch is in effect across North Alabama and Middle Tennessee as multiple rounds of rain move through the Tennessee Valley. \n\n## Key facts\nThe station said the Flood Watch runs through noon Saturday (Jan. 10). \nWAFF reported that rain was expected to become more widespread through the morning, with possible ponding on area roadways. \nThe forecast discussion noted occasional rumbles of thunder, and said a few embedded storms could produce isolated wind gusts over 30 miles per hour. \nWAFF said the greater severe-weather threat was expected to remain to the south and west, and that North Alabama could see a break from widespread rain during the afternoon and evening, staying cloudy with highs in the mid to upper 60s. \n\n## Context\nWAFF labeled both Friday and Saturday as “48 First Alert Weather Days,” tying the alert to the risk of heavy rainfall and flooding impacts across the Tennessee Valley. \n\n## What to watch\nWhether rainfall continues in waves into Saturday, and whether localized flooding or roadway ponding becomes more widespread during the watch period through noon Saturday. ",
+"created_at": "2026-01-09T18:12:55Z",
+"updated_at": "2026-01-09T18:12:55Z"
+},
+{
+"id": "art_20260109_0002",
+"slug": "athens-career-center-opens-athens-state-campus",
+"status": "published",
+"title": "Athens Career Center opens on Athens State campus to serve Limestone County job seekers and employers",
+"theme": "civic",
+"tags": [
+"workforce",
+"career-center",
+"athens-state",
+"limestone-county",
+"job-services",
+"alabama-department-of-workforce"
+],
+"geo": {
+"scope": "city",
+"place_name": "Athens, AL",
+"fips": null
+},
+"source_cluster": {
+"topic_id": "topic_20260109_02",
+"sources": [
+{
+"publisher": "The News Courier",
+"url": "https://enewscourier.com/2026/01/09/athens-states-newest-asset-a-state-supported-career-center-to-boost-job-seekers-and-employers/
+",
+"published_at": "2026-01-09T10:47:00-06:00"
+}
+]
+},
+"summary": [
+"The News Courier reported that local and state leaders held a ribbon cutting this week for the Athens Career Center on the Athens State University campus. ",
+"Officials named in the report included Alabama Department of Workforce Secretary Greg J. Reed, Sen. Arthur Orr, Athens Mayor Ronnie Marks, Limestone County Commission Chair Collin Daly, and Athens State President Dr. Carol Wehlburg. ",
+"The center is located at Chasteen Hall (161 N. Clinton St., Suite 106, Athens) and is described as offering services such as resume assistance, job placement, and training support. "
+],
+"body_markdown": "## What happened\nThe News Courier reported that Athens State University and the Alabama Department of Workforce marked the opening of the Athens Career Center with a ribbon cutting involving local, state, and university leaders. \n\n## Key facts\nAccording to the report, Alabama Department of Workforce Secretary Greg J. Reed participated alongside Sen. Arthur Orr, Athens Mayor Ronnie Marks, Limestone County Commission Chair Collin Daly, and Athens State President Dr. Carol Wehlburg. \nThe News Courier described the Athens Career Center as a full-service extension of the state’s Workforce Pathways Division and a collaboration between Athens State and the Alabama Department of Workforce. \nThe report listed the location as Chasteen Hall on the Athens State campus at 161 North Clinton Street, Suite 106, in Athens. \nServices referenced in the article include resume assistance, job placement services, educational and vocational training assistance, and employee pre-screening. \n\n## Context\nThe News Courier framed the new Limestone County location as intended to support both job seekers and employers, and quoted the university describing the partnership as a step toward growth and development in the county. \n\n## What to watch\nHow the new center’s services are rolled out locally at the Athens State campus site, including any future announcements about programming or employer-facing support referenced in the report. ",
+"created_at": "2026-01-09T18:12:55Z",
+"updated_at": "2026-01-09T18:12:55Z"
+},
+{
+"id": "art_20260109_0003",
+"slug": "kitchen-cops-hazel-green-new-china-cafe-78",
+"status": "published",
+"title": "Kitchen Cops cite temperature and cross-contamination issue at Hazel Green restaurant in latest inspection scores",
+"theme": "health",
+"tags": [
+"restaurant-inspections",
+"kitchen-cops",
+"hazel-green",
+"madison-county",
+"food-safety",
+"inspection-scores"
+],
+"geo": {
+"scope": "county",
+"place_name": "Madison County, AL",
+"fips": null
+},
+"source_cluster": {
+"topic_id": "topic_20260109_03",
+"sources": [
+{
+"publisher": "WAFF 48",
+"url": "https://www.waff.com/2026/01/09/kitchen-cops-find-cross-contamination-concerns-hazel-green/
+",
+"published_at": "2026-01-09T05:00:00-06:00"
+}
+]
+},
+"summary": [
+"WAFF reported that New China Cafe in Hazel Green scored a 78, citing multiple food temperature violations and broken wires on two fryer baskets. ",
+"WAFF also reported an issue where cooked chicken was stored in the same cardboard box that had held raw chicken in the cooler; the box was discarded after inspectors pointed it out. ",
+"In the same report, WAFF said Payless Brothers minimart in Harvest scored an 82, with notes including sink water not hot enough, a dirty ice machine, and a bathroom lacking toilet paper or drying devices. "
+],
+"body_markdown": "## What happened\nWAFF published its “Kitchen Cops” update with early-2026 inspection scores and notes, including Madison County locations in the Huntsville area. \n\n## Key facts\nWAFF reported that New China Cafe in Hazel Green received a 78, citing multiple food temperature violations and broken wires on two fryer baskets. \nThe report also described an issue where cooked chicken was being stored in the same cardboard box that had held raw chicken in a cooler, and said the box was thrown out after inspectors pointed out the problem. \nWAFF reported that Payless Brothers minimart in Harvest scored an 82, noting that water at the three-compartment sink was not hot enough to meet state standards, and citing a dirty ice machine and a bathroom with no toilet paper or drying devices. \nWAFF also stated that there were no significant issues in Limestone County in this update. \n\n## Context\nThe WAFF report referenced county-by-county score sheets and inspection notes via linked documents as part of its roundup format. \n\n## What to watch\nAny follow-up inspection documentation linked in the report’s county score sheets, and whether future “Kitchen Cops” updates show changes in scores or corrected issues for the locations named. ",
+"created_at": "2026-01-09T18:12:55Z",
+"updated_at": "2026-01-09T18:12:55Z"
+},
+{
+"id": "art_20260109_0004",
+"slug": "west-end-grill-earns-93-after-69-health-score",
+"status": "published",
+"title": "WAFF: West End Grill earns 93 after October inspection score of 69",
+"theme": "health",
+"tags": [
+"health-inspection",
+"west-end-grill",
+"huntsville",
+"old-madison-pike",
+"food-safety",
+"restaurant-operations"
+],
+"geo": {
+"scope": "city",
+"place_name": "Huntsville, AL",
+"fips": null
+},
+"source_cluster": {
+"topic_id": "topic_20260109_04",
+"sources": [
+{
+"publisher": "WAFF 48",
+"url": "https://www.waff.com/2026/01/09/huntsville-restaurant-bounces-back-after-low-health-score-inspection/
+",
+"published_at": "2026-01-09T07:57:00-06:00"
+}
+]
+},
+"summary": [
+"WAFF reported that West End Grill on Old Madison Pike received a 93 on its first inspection since October, after scoring a 69 previously. ",
+"WAFF listed October findings that included flies in the kitchen, a dishwashing machine with no chlorine sanitizer, and multiple food temperature issues. ",
+"Owner Kevin Brakefield told WAFF the 69 was his first low score since managing the restaurant in 2011 and said staff refocused on daily checklists and temperature checks. "
+],
+"body_markdown": "## What happened\nWAFF reported that a Huntsville restaurant increased its health inspection score after a low score in October, following internal changes described by the owner. \n\n## Key facts\nWAFF reported that West End Grill on Old Madison Pike received a 93 in its first inspection since October, after scoring a 69 on the October inspection. \nThe station reported that the October score of 69 followed inspector notes including flies in the kitchen, a dishwashing machine with no chlorine sanitizer, multiple food temperature issues, and an employee cleaning a knife in the wrong sink. \nOwner Kevin Brakefield told WAFF he was “devastated” by the 69, and said it was his first low score since managing the restaurant in 2011. \nWAFF reported that Brakefield said the restaurant called a staff meeting and refocused on checklist execution, including doing temperature checks on hot and cold items multiple times per day and keeping refrigerators and coolers properly stacked and labeled. \n\n## Context\nThe WAFF report framed the score change as a follow-up to the October inspection and included the owner’s description of operational steps taken after the earlier findings. \n\n## What to watch\nWhether the restaurant maintains similar scores in subsequent inspections, and whether future public inspection reports reference the same categories WAFF described (sanitizer use, temperature controls, and kitchen practices). ",
+"created_at": "2026-01-09T18:12:55Z",
+"updated_at": "2026-01-09T18:12:55Z"
+},
+{
+"id": "art_20260109_0005",
+"slug": "huntsville-federal-grand-jury-ice-officer-assault-charge",
+"status": "published",
+"title": "WAFF: Huntsville federal grand jury charges man with assaulting ICE officer during DeKalb County traffic stop",
+"theme": "courts",
+"tags": [
+"federal-grand-jury",
+"ice",
+"assault-charge",
+"dekalb-county",
+"traffic-stop",
+"indictment"
+],
+"geo": {
+"scope": "county",
+"place_name": "DeKalb County, AL",
+"fips": null
+},
+"source_cluster": {
+"topic_id": "topic_20260109_05",
+"sources": [
+{
+"publisher": "WAFF 48",
+"url": "https://www.waff.com/2026/01/09/man-charged-with-biting-ice-officer-during-traffic-stop/
+",
+"published_at": "2026-01-09T11:32:00-06:00"
+}
+]
+},
+"summary": [
+"WAFF reported that a Huntsville federal grand jury charged a Guatemalan national with assaulting a U.S. Immigration and Customs Enforcement (ICE) officer. ",
+"According to WAFF, Antonio Juan-Juan, 30, is accused of biting an ICE officer during a traffic stop in DeKalb County. ",
+"WAFF reported that the maximum penalty is eight years in prison and that ICE and the DeKalb County Sheriff’s Office conducted a joint investigation. "
+],
+"body_markdown": "## What happened\nWAFF reported a federal charging update tied to North Alabama, involving a Huntsville federal grand jury and an allegation of assault on an ICE officer during a traffic stop. \n\n## Key facts\nWAFF reported that a Huntsville federal grand jury charged a Guatemalan national with assaulting a U.S. Immigration and Customs Enforcement (ICE) officer. \nThe station reported the defendant as Antonio Juan-Juan, 30, and said he is accused of biting an ICE officer during a traffic stop in DeKalb County. \nWAFF reported that the maximum penalty for the charged offense is eight years imprisonment. \nWAFF said the investigation was a joint effort between ICE agents and the DeKalb County Sheriff’s Office. \n\n## Context\nThe report identifies the allegation as occurring in DeKalb County and frames the case as a federal grand jury charge associated with Huntsville. \n\n## What to watch\nAny additional public details released by investigators or through subsequent reporting about the case, beyond the charge and maximum penalty described by WAFF. ",
+"created_at": "2026-01-09T18:12:55Z",
+"updated_at": "2026-01-09T18:12:55Z"
+}
+]
 }
