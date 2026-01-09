@@ -1,0 +1,196 @@
+{
+"date": "2026-01-09",
+"timezone": "America/Chicago",
+"generated_at": "2026-01-09T19:19:20Z",
+"source_scope": {
+"region_label": "Troy, MT + surrounding (Lincoln County / Kootenai-Cabinet region)",
+"notes": "Past-week local/regional items. Non-alarmist, fact-forward, and avoids crime-blotter style coverage."
+},
+"articles": [
+{
+"id": "art_20260109_0001",
+"slug": "winter-storm-watch-kootenai-cabinet-troy-libby",
+"status": "published",
+"title": "Winter storm watch posted for the Kootenai-Cabinet region, including the Troy–Libby area",
+"theme": "weather",
+"tags": [
+"winter-weather",
+"snow",
+"travel",
+"forecast"
+],
+"geo": {
+"scope": "region",
+"place_name": "Kootenai-Cabinet region (Troy–Libby area), MT",
+"fips": null
+},
+"source_cluster": {
+"topic_id": "topic_20260109_troy_01_weather_watch",
+"sources": [
+{
+"publisher": "The Western News",
+"url": "https://thewesternnews.com/news/2026/jan/06/winter-storm-watch-in-effect-for-kootenai-cabinet-region/
+",
+"published_at": "2026-01-06T07:50:00-07:00"
+}
+]
+},
+"summary": [
+"A Winter Storm Watch was issued for Northwest Montana/North Idaho, including corridors used by Troy and Libby residents.",
+"Forecast details emphasized potential valley snow totals near the Idaho border and higher totals in high terrain, with gusty winds mentioned.",
+"Road impacts were highlighted as a practical concern, with key routes named for the region."
+],
+"body_markdown": "## What happened\nA Winter Storm Watch was issued for the Kootenai-Cabinet region, covering parts of Northwest Montana and nearby North Idaho, including the Troy–Libby area.\n\n## Why it matters\nIn small communities, a watch like this mainly changes the “day-to-day logistics” picture: driving windows, delivery timing, school/activity planning, and basic preparedness (traction, extra time, and checking road conditions before longer trips).\n\n## What to watch\nUpdates from the National Weather Service and local road condition reports, especially for routes commonly used around Troy/Libby and over higher passes.",
+"created_at": "2026-01-09T19:19:20Z",
+"updated_at": "2026-01-09T19:21:20Z"
+},
+{
+"id": "art_20260109_0002",
+"slug": "lincoln-county-recovery-work-libby-troy-infrastructure",
+"status": "published",
+"title": "Lincoln County recovery work continues, with infrastructure focus near Libby and Troy",
+"theme": "infrastructure",
+"tags": [
+"recovery",
+"infrastructure",
+"flood-mitigation",
+"public-works"
+],
+"geo": {
+"scope": "county",
+"place_name": "Lincoln County, MT (Libby & Troy area)",
+"fips": null
+},
+"source_cluster": {
+"topic_id": "topic_20260109_troy_02_recovery_infrastructure",
+"sources": [
+{
+"publisher": "The Western News",
+"url": "https://thewesternnews.com/news/2026/jan/06/disaster-recovery-work-continues-in-county/
+",
+"published_at": "2026-01-06T07:00:00-07:00"
+}
+]
+},
+"summary": [
+"Local, state, and federal teams continued damage assessment work tied to December flooding and wind damage in south Lincoln County.",
+"Water-system stabilization steps were described (including temporary controls aimed at reducing sediment before testing decisions are made).",
+"The report noted mitigation work near Troy-area waterways intended to reduce future flood risk near roads, utilities, and homes."
+],
+"body_markdown": "## What happened\nOfficials and partner agencies continued cleanup and assessment work after December weather events damaged infrastructure in parts of Lincoln County. The reporting focused on repair planning, documentation, and near-term stabilization steps.\n\n## Why it matters\nFor Troy and nearby communities, the practical impact is whether repairs and mitigations reduce repeat disruptions: road access, utility reliability, and water-system stability. The behind-the-scenes work (assessments, measurements, documentation) is also what unlocks potential state/federal assistance.\n\n## What to watch\nUpdates on infrastructure assessments, timelines for specific repair projects, and any public calls for documentation (volunteer hours, donations, equipment use) that support reimbursement and aid programs.",
+"created_at": "2026-01-09T19:19:20Z",
+"updated_at": "2026-01-09T19:22:20Z"
+},
+{
+"id": "art_20260109_0003",
+"slug": "libby-new-mayor-council-sworn-in-2026",
+"status": "published",
+"title": "Libby swears in a new mayor and councilors as the city starts its 2026 cycle",
+"theme": "civic",
+"tags": [
+"local-government",
+"elections",
+"city-council",
+"public-meetings"
+],
+"geo": {
+"scope": "city",
+"place_name": "Libby, MT",
+"fips": null
+},
+"source_cluster": {
+"topic_id": "topic_20260109_troy_03_libby_civic",
+"sources": [
+{
+"publisher": "The Western News",
+"url": "https://thewesternnews.com/news/2026/jan/06/wild-art-new-libby-mayor-councilors-sworn-in/
+",
+"published_at": "2026-01-06T07:00:00-07:00"
+}
+]
+},
+"summary": [
+"Libby held a swearing-in for its mayor and multiple city council positions following the recent election and appointments.",
+"The article outlined vote totals and how seats were filled, including a vacancy filled by council selection.",
+"Early-year meeting scheduling was noted as the new group begins setting priorities and process for 2026."
+],
+"body_markdown": "## What happened\nLibby’s mayor and several council members were sworn in as the city transitions into its 2026 governing lineup.\n\n## Why it matters\nCity leadership changes shape the near-term agenda: budgeting, infrastructure priorities, ordinances, and how quickly the city can make decisions during ongoing recovery and planning work that affects the wider Lincoln County area.\n\n## What to watch\nThe first 2026 council meetings for agenda items, committee assignments, and any early votes that signal priorities for the year.",
+"created_at": "2026-01-09T19:19:20Z",
+"updated_at": "2026-01-09T19:23:20Z"
+},
+{
+"id": "art_20260109_0004",
+"slug": "libby-boil-water-order-business-impacts-support",
+"status": "published",
+"title": "Libby’s boil water order continues, with clear day-to-day costs for residents and local businesses",
+"theme": "health",
+"tags": [
+"water",
+"public-health",
+"local-business",
+"recovery"
+],
+"geo": {
+"scope": "city",
+"place_name": "Libby, MT (serves Troy-area residents who shop/work in town)",
+"fips": null
+},
+"source_cluster": {
+"topic_id": "topic_20260109_troy_04_water_order_impacts",
+"sources": [
+{
+"publisher": "The Western News (via Montana Free Press)",
+"url": "https://thewesternnews.com/news/2026/jan/09/libbys-boil-order-continues-to-challenge-city-residents-and-businesses/
+",
+"published_at": "2026-01-09T07:00:00-07:00"
+}
+]
+},
+"summary": [
+"The story documented how the ongoing boil-water requirement is changing routines for grocery stores and food service, including equipment limitations tied to tap-water connections.",
+"Businesses described added costs and workarounds, such as relying on bottled/treated water and altering standard processes.",
+"Community distribution of bottled water and the dependency on testing/approval timelines were described as key near-term factors."
+],
+"body_markdown": "## What happened\nLibby remains under a boil-water order, and local reporting detailed the practical effects on daily life and commerce—especially for grocery and food-service operations that normally depend on direct tap-water hookups.\n\n## Why it matters\nThis is less about drama and more about economics and friction: higher operating costs, extra labor, and small constraints that add up (coffee systems, produce handling, dish/glass rinsing). For the broader Troy–Libby area, it also shifts where and how people shop, eat, and access essentials.\n\n## What to watch\nAny official updates on testing milestones and approval to lift restrictions, plus continued availability of bottled-water distribution while the order remains active.",
+"created_at": "2026-01-09T19:19:20Z",
+"updated_at": "2026-01-09T19:24:20Z"
+},
+{
+"id": "art_20260109_0005",
+"slug": "troy-lady-trojans-plains-7b-game-result",
+"status": "published",
+"title": "Troy Lady Trojans fall at Plains in a Western 7B road game",
+"theme": "sports",
+"tags": [
+"high-school-sports",
+"basketball",
+"troy-trojans",
+"western-7b"
+],
+"geo": {
+"scope": "city",
+"place_name": "Troy, MT",
+"fips": null
+},
+"source_cluster": {
+"topic_id": "topic_20260109_troy_05_sports_girls_bball",
+"sources": [
+{
+"publisher": "The Western News",
+"url": "https://thewesternnews.com/news/2026/jan/06/troy-lady-trojans-drop-7b-game-in-plains/
+",
+"published_at": "2026-01-06T07:00:00-07:00"
+}
+]
+},
+"summary": [
+"Troy’s girls team lost a Western 7B road matchup at Plains, with the score reported as 61–46.",
+"The result was framed as early-season context, leveling Troy’s record at 2–2 at the time of publication.",
+"It’s a straightforward snapshot of where the team stands as league play ramps up."
+],
+"body_markdown": "## What happened\nTroy’s girls basketball team dropped a Western 7B road game at Plains, 61–46.\n\n## Why it matters\nFor a small-town program, early-season results are mostly about establishing rotation, conditioning, and consistency before the schedule tightens. A 2–2 mark is a usable baseline for measuring improvement across the next set of games.\n\n## What to watch\nUpcoming conference matchups and whether Troy’s scoring balance and defensive pace stabilize as the season progresses.",
+"created_at": "2026-01-09T19:19:20Z",
+"updated_at": "2026-01-09T19:25:20Z"
+}
+]
+}
