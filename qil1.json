@@ -1,68 +1,23 @@
 {
 "date": "2026-01-09",
 "timezone": "America/Chicago",
-"generated_at": "2026-01-09T18:48:32Z",
+"generated_at": "2026-01-09T19:01:41Z",
 "source_scope": {
-"region_label": "Quincy, IL (Adams County / Tri-State)",
-"notes": "Live web sources; filtered to items published within the last 12 hours."
+"region_label": "Quincy, IL (Adams County)",
+"notes": "Past 12 hours; avoids fear-based crime coverage."
 },
 "articles": [
 {
 "id": "art_20260109_0001",
-"slug": "quincy-man-pleads-guilty-aggravated-criminal-sexual-abuse-sentenced",
+"slug": "quincy-forecast-few-flakes-possible-tonight",
 "status": "published",
-"title": "Quincy man pleads guilty to aggravated criminal sexual abuse; sentenced to 12 years",
-"theme": "courts",
+"title": "A few flakes possible tonight as colder air settles into the Quincy area",
+"theme": "weather",
 "tags": [
-"court",
-"sentencing",
-"adams-county",
-"qps",
-"criminal-case"
-],
-"geo": {
-"scope": "county",
-"place_name": "Adams County, IL",
-"fips": null
-},
-"source_cluster": {
-"topic_id": "topic_quincy_20260109_01",
-"sources": [
-{
-"publisher": "Muddy River News",
-"url": "https://muddyrivernews.com/noteworthy/quincy-man-pleads-guilty-to-sexual-abuse-of-underage-victim-qps-employees-tipped-off-investigators/20260109114037/
-",
-"published_at": "2026-01-09T11:40:37-06:00"
-},
-{
-"publisher": "KHQA",
-"url": "https://khqa.com/news/local/quincy-man-gets-12-years-in-state-prison-for-sexual-abuse-caleb-veihl-illinois-department-of-corrections-bench-trial-conduct-minor-adams-county-jail
-",
-"published_at": "2026-01-09T10:14:00-06:00"
-}
-]
-},
-"summary": [
-"Caleb P. Veihl, 33, of Quincy pleaded guilty to two counts of aggravated criminal sexual abuse shortly before a scheduled bench trial.",
-"A judge sentenced him to 12 years in the Illinois Department of Corrections; reporting indicates he will serve at 50% with four years of mandatory supervised release afterward.",
-"Authorities credited community reporting and victim-advocacy support, with investigation handled by Quincy Police and involvement noted from Quincy Public Schools staff."
-],
-"body_markdown": "## What happened\nLocal court reporting indicates Caleb P. Veihl (33) entered a guilty plea to two counts of aggravated criminal sexual abuse shortly before a scheduled bench trial. He was sentenced to 12 years in the Illinois Department of Corrections, with reporting noting credit for time previously served in the Adams County Jail.\n\n## Why it matters\nThe case highlights how school personnel reporting and victim-advocacy services can trigger investigations and help move cases forward. It also provides a concrete example of how sentencing rules (including percentage-to-serve and supervised release) shape outcomes beyond the headline prison term.\n\n## What to watch\nAny additional filings (appeals or post-sentencing motions), updates from the State's Attorney’s Office, and related community guidance about reporting pathways and victim support resources.",
-"created_at": "2026-01-09T18:48:32Z",
-"updated_at": "2026-01-09T18:48:32Z"
-},
-{
-"id": "art_20260109_0002",
-"slug": "quincy-university-opens-otd-dpt-doctoral-facility-north-campus",
-"status": "published",
-"title": "Quincy University opens new OT and PT doctoral facility at North Campus",
-"theme": "education",
-"tags": [
-"quincy-university",
-"occupational-therapy",
-"physical-therapy",
-"workforce",
-"higher-education"
+"forecast",
+"cold-front",
+"snow-showers",
+"weekend"
 ],
 "geo": {
 "scope": "city",
@@ -70,45 +25,7 @@
 "fips": null
 },
 "source_cluster": {
-"topic_id": "topic_quincy_20260109_02",
-"sources": [
-{
-"publisher": "Muddy River News",
-"url": "https://muddyrivernews.com/communities/illinois/quincy-univeristy-opens-occupational-and-physical-therapy-doctoral-programs-facility/20260109083644/
-",
-"published_at": "2026-01-09T08:36:44-06:00"
-}
-]
-},
-"summary": [
-"Quincy University held a ribbon cutting and open house for a new Occupational Therapy Doctorate (OTD) and Doctor of Physical Therapy (DPT) facility at its North Campus near 17th & Seminary Road.",
-"The university described a hybrid model combining online coursework with in-person lab work designed for skills practice and simulation.",
-"Reporting notes the OTD program’s first cohort began coursework on January 5, with the DPT program slated to start in August."
-],
-"body_markdown": "## What happened\nQuincy University opened a new doctoral-program facility for Occupational Therapy (OTD) and Physical Therapy (DPT) with a ribbon cutting and open house at the North Campus location near 17th & Seminary Road. The facility includes lab spaces intended for hands-on training.\n\n## Why it matters\nOT and PT programs are tied directly to healthcare workforce needs. A local doctoral pipeline can affect staffing capacity in regional clinics and hospitals over the next few years, especially if cohorts scale.\n\n## What to watch\nEnrollment size and clinical placement partnerships, timeline and details for the DPT August start, and any subsequent expansions (additional labs, faculty hiring, or new healthcare-focused degrees).",
-"created_at": "2026-01-09T18:48:34Z",
-"updated_at": "2026-01-09T18:48:34Z"
-},
-{
-"id": "art_20260109_0003",
-"slug": "wgem-forecast-few-flakes-possible-tonight-quincy-area",
-"status": "published",
-"title": "WGEM forecast: cooler, breezy Friday; a few flakes possible tonight",
-"theme": "weather",
-"tags": [
-"forecast",
-"snow-showers",
-"winds",
-"temperatures",
-"weekend"
-],
-"geo": {
-"scope": "metro",
-"place_name": "Quincy area (Tri-State)",
-"fips": null
-},
-"source_cluster": {
-"topic_id": "topic_quincy_20260109_03",
+"topic_id": "topic_quincy_20260109_weather_01",
 "sources": [
 {
 "publisher": "WGEM",
@@ -119,64 +36,25 @@
 ]
 },
 "summary": [
-"WGEM reports Friday will be cooler than earlier this week, with northwest winds gusting during the morning and highs in the mid-40s.",
-"Showers are expected overnight; as temperatures drop near freezing, some precipitation may switch to snow showers with limited accumulation (generally a dusting).",
-"The weekend trend continues cooler: upper 30s Saturday and low-to-mid 30s Sunday, with a warmer start to next week possible after a warm front moves through."
+"Friday is cooler and breezy, with northwest winds and highs mainly in the mid-40s.",
+"Showers return tonight as temperatures near freezing, so some rain may mix with snow showers; accumulation is expected to be limited (generally a dusting).",
+"Colder weekend conditions follow (upper 30s Saturday, 30s Sunday) before a warmer start to next week."
 ],
-"body_markdown": "## What happened\nLocal weather reporting indicates cooler conditions for Friday with lingering clouds, breezy northwest winds, and highs around the mid-40s. Overnight precipitation may transition from rain showers to snow showers as temperatures fall toward freezing.\n\n## Why it matters\nEven light snow can affect early-morning travel—especially if temperatures dip just enough for slick spots on bridges, ramps, and untreated surfaces. The bigger story is the temperature slide into the weekend after an unusually mild stretch.\n\n## What to watch\nWhether overnight precipitation timing overlaps with the coldest hours (which increases the chance of slick roads), and how quickly skies clear Saturday/Sunday, which can drive colder overnight lows.",
-"created_at": "2026-01-09T18:48:36Z",
-"updated_at": "2026-01-09T18:48:36Z"
+"body_markdown": "## What happened\nA cooler air mass moved into the Tri-States, keeping Quincy breezy with northwest winds and lower daytime highs compared with earlier in the week. Tonight’s precipitation chances increase, and as temperatures drop toward freezing, some of the showers may transition into snow showers.\n\n## Why it matters\nEven light snow can create slick spots on bridges, ramps, and untreated side streets—especially overnight into the early morning when surface temps are lowest.\n\n## What to watch\nWatch for brief bursts of snow mixing in late tonight, then colder highs over the weekend. If you’ll be driving early Saturday, check road conditions for any patchy slick areas.",
+"created_at": "2026-01-09T19:01:41Z",
+"updated_at": "2026-01-09T19:01:41Z"
 },
 {
-"id": "art_20260109_0004",
-"slug": "wgem-hospital-report-quincy-area-deaths-no-births",
+"id": "art_20260109_0002",
+"slug": "railroad-track-stall-what-to-do-operation-lifesaver",
 "status": "published",
-"title": "WGEM hospital report: two deaths listed; no births reported today",
-"theme": "health",
-"tags": [
-"hospital-report",
-"deaths",
-"community",
-"quincy",
-"obituary"
-],
-"geo": {
-"scope": "metro",
-"place_name": "Quincy area (Tri-State)",
-"fips": null
-},
-"source_cluster": {
-"topic_id": "topic_quincy_20260109_04",
-"sources": [
-{
-"publisher": "WGEM",
-"url": "https://www.wgem.com/2026/01/09/hospital-report-january-9-2025/
-",
-"published_at": "2026-01-09T08:29:00-06:00"
-}
-]
-},
-"summary": [
-"WGEM’s hospital report lists the death of James E. “Jim” Raithel, 86, of Quincy, who died Jan. 8 at home.",
-"The report also lists the death of Letha J. King, 89, of Creve Coeur, Missouri, who died Jan. 8.",
-"WGEM reports there were no births to report today."
-],
-"body_markdown": "## What happened\nWGEM published a daily hospital report listing two deaths in the viewing region and noting no births to report for the day.\n\n## Why it matters\nThese reports function as a rapid community record—often the earliest public notice for families and neighbors—before longer obituary notices and service details are published elsewhere.\n\n## What to watch\nFollow-up obituary postings and service announcements, plus any updates or corrections if additional information is released later in the day.",
-"created_at": "2026-01-09T18:48:38Z",
-"updated_at": "2026-01-09T18:48:38Z"
-},
-{
-"id": "art_20260109_0005",
-"slug": "qpd-recovered-property-list-appointments-required-evidence-department",
-"status": "published",
-"title": "Quincy Police publish recovered property list; appointments required for pickup",
+"title": "If your vehicle stalls on railroad tracks, the safest move is to exit immediately and use the crossing ID sign",
 "theme": "public-safety",
 "tags": [
-"quincy-police",
-"recovered-property",
-"evidence",
-"lost-and-found",
-"appointments"
+"rail-safety",
+"operation-lifesaver",
+"traffic",
+"public-education"
 ],
 "geo": {
 "scope": "city",
@@ -184,24 +62,135 @@
 "fips": null
 },
 "source_cluster": {
-"topic_id": "topic_quincy_20260109_05",
+"topic_id": "topic_quincy_20260109_safety_01",
 "sources": [
 {
-"publisher": "Muddy River News",
-"url": "https://muddyrivernews.com/communities/recovered-property-lost-a-keychain-cant-find-your-bike-missing-a-portable-radio-quincy-police-department-might-have-it-2/20260109070308/
+"publisher": "WGEM",
+"url": "https://www.wgem.com/2026/01/09/official-shares-what-do-if-your-vehicle-gets-stuck-railroad-tracks/
 ",
-"published_at": "2026-01-09T07:03:08-06:00"
+"published_at": "2026-01-09T05:00:00-06:00"
 }
 ]
 },
 "summary": [
-"Quincy Police released an updated list of recovered items (keys, wallets/cards, phones, and bicycles) available through the QPD Evidence Department.",
-"Residents are instructed to call the Evidence Department and reference the listed ID number; appointments are required to pick up property.",
-"The notice states recovered firearms are not listed and advises anyone missing a firearm to contact QPD directly."
+"Operation Lifesaver reports roughly 2,250 train–motor vehicle collisions occurred in 2024, underscoring why crossings should never be treated casually.",
+"If a car stalls on tracks: get everyone out, move away from the tracks, locate the blue-and-white crossing sign, and call the number to report the crossing’s unique ID.",
+"The same number should be used to report unsafe issues like malfunctioning warning devices or visibility obstructions at crossings."
 ],
-"body_markdown": "## What happened\nQuincy Police, via a published recovered-property notice, listed items currently held by the Evidence Department (including keys, wallets/cards, phones, and bikes) with ID numbers for claim verification.\n\n## Why it matters\nRecovered-property updates are a practical, fast way to reconnect residents with high-value items (phones, IDs, keys) and reduce long-term storage burden for the department.\n\n## What to watch\nAdditional updates to the recovered-property list, changes to pickup procedures, and any separate public notices for items not included in the list (including firearms).",
-"created_at": "2026-01-09T18:48:40Z",
-"updated_at": "2026-01-09T18:48:40Z"
+"body_markdown": "## What happened\nA railroad-safety reminder circulated for the Quincy area emphasizing what to do if a vehicle becomes stuck or stalled on a rail crossing.\n\n## Why it matters\nTrains require long distances to stop, and crossing incidents escalate fast—especially if drivers try to push a vehicle off the tracks or ignore warning devices.\n\n## What to watch\nMake sure everyone in your household knows the “blue sign” step: exit the vehicle, move away, and use the crossing sign’s phone number and ID so rail dispatch can be alerted quickly.",
+"created_at": "2026-01-09T19:01:41Z",
+"updated_at": "2026-01-09T19:01:41Z"
+},
+{
+"id": "art_20260109_0003",
+"slug": "quincy-university-opens-ot-pt-doctoral-facility",
+"status": "published",
+"title": "Quincy University opens new Occupational and Physical Therapy doctoral facility to expand regional healthcare training",
+"theme": "education",
+"tags": [
+"quincy-university",
+"healthcare-workforce",
+"doctoral-programs",
+"campus"
+],
+"geo": {
+"scope": "city",
+"place_name": "Quincy, IL",
+"fips": null
+},
+"source_cluster": {
+"topic_id": "topic_quincy_20260109_education_01",
+"sources": [
+{
+"publisher": "Muddy River News",
+"url": "https://muddyrivernews.com/communities/illinois/quincy-univeristy-opens-occupational-and-physical-therapy-doctoral-programs-facility/20260109083644/
+",
+"published_at": "2026-01-09T08:36:44-06:00"
+}
+]
+},
+"summary": [
+"Quincy University marked the opening of a new facility supporting Occupational Therapy (OTD) and Physical Therapy (DPT) doctoral programs with a ribbon cutting and open house at its North Campus (17th & Seminary Road).",
+"The programs are described as hybrid, combining online coursework with in-person lab experiences for skills, simulation, and collaborative learning.",
+"The OT doctoral cohort began coursework on January 5, and the PT doctoral program is slated to start in August."
+],
+"body_markdown": "## What happened\nQuincy University opened a new doctoral training facility for occupational and physical therapy programs, celebrating the milestone with a ribbon cutting and open house at its North Campus.\n\n## Why it matters\nOT and PT are high-demand healthcare roles, and expanding local training capacity can help address regional workforce needs while keeping students and talent in the area.\n\n## What to watch\nWatch for enrollment updates and the August launch timeline for the DPT program, plus any new clinical partnership announcements tied to the programs’ hands-on training components.",
+"created_at": "2026-01-09T19:01:41Z",
+"updated_at": "2026-01-09T19:01:41Z"
+},
+{
+"id": "art_20260109_0004",
+"slug": "adams-county-entrepreneurship-surge-2025-new-businesses",
+"status": "published",
+"title": "Adams County reports 47 new business openings in 2025 as local groups push startup resources",
+"theme": "business",
+"tags": [
+"small-business",
+"new-openings",
+"local-economy",
+"downtown"
+],
+"geo": {
+"scope": "county",
+"place_name": "Adams County, IL",
+"fips": "17001"
+},
+"source_cluster": {
+"topic_id": "topic_quincy_20260109_business_01",
+"sources": [
+{
+"publisher": "Muddy River News",
+"url": "https://muddyrivernews.com/top-stories/more-entrepreneurs-finding-their-niche-in-quincy-and-adams-county/20260109070915/
+",
+"published_at": "2026-01-09T07:09:15-06:00"
+}
+]
+},
+"summary": [
+"Local development groups report Adams County saw 47 new businesses open in 2025; after closures, the net gain is reported at around 30.",
+"A featured example is “What’s the Niche?” at 522 S. 8th Street in Quincy, highlighting vendor-based retail and event-style offerings (like painting parties).",
+"GREDF, the Quincy Area Chamber, and The District created a Business Start-Up Guide aimed at making the process of opening a business more navigable with contacts and step-by-step resources."
+],
+"body_markdown": "## What happened\nA local report highlighted an increase in new business activity across Adams County, pointing to dozens of openings during 2025 and ongoing efforts to support entrepreneurs.\n\n## Why it matters\nNew business formation is a practical indicator of local confidence and can broaden services, jobs, and foot traffic—especially when paired with support tools that reduce friction for first-time owners.\n\n## What to watch\nWatch whether the startup guide increases follow-through (permits, financing, and storefront stability) and whether net gains remain positive as 2026 progresses.",
+"created_at": "2026-01-09T19:01:41Z",
+"updated_at": "2026-01-09T19:01:41Z"
+},
+{
+"id": "art_20260109_0005",
+"slug": "adams-county-real-estate-transactions-late-dec-early-jan",
+"status": "published",
+"title": "Adams County real estate snapshot: late December sales include multiple Quincy home transfers and several higher-value acreage deals",
+"theme": "real-estate",
+"tags": [
+"home-sales",
+"property-records",
+"adams-county",
+"market-snapshot"
+],
+"geo": {
+"scope": "county",
+"place_name": "Adams County, IL",
+"fips": "17001"
+},
+"source_cluster": {
+"topic_id": "topic_quincy_20260109_realestate_01",
+"sources": [
+{
+"publisher": "Muddy River News",
+"url": "https://muddyrivernews.com/communities/real-estate-transactions-in-adams-county-from-dec-29-2025-jan-2-2026/20260109065952/
+",
+"published_at": "2026-01-09T06:59:52-06:00"
+}
+]
+},
+"summary": [
+"A compiled set of property transfers (sourced from Illinois Real Estate Transfer Declaration forms) provides a week-style snapshot of recorded transactions across Adams County.",
+"Examples include Quincy residential transfers spanning a wide price range (including lower-cost and mid-market sales) plus several larger acreage transactions outside the city.",
+"The publication notes that listed dates may differ from actual transaction or recording dates, and additional details can be obtained from recorded documents."
+],
+"body_markdown": "## What happened\nA local real estate roundup listed recorded transfers in Adams County covering late December through early January, including multiple Quincy addresses and several rural/acreage deals.\n\n## Why it matters\nThese records help residents and local businesses track market activity (pricing ranges, turnover, and where transactions are clustering) without relying on anecdote.\n\n## What to watch\nWatch whether higher-value acreage deals continue into mid-winter (often a slower season) and whether Quincy’s mid-market inventory remains tight or loosens as spring approaches.",
+"created_at": "2026-01-09T19:01:41Z",
+"updated_at": "2026-01-09T19:01:41Z"
 }
 ]
 }
