@@ -1,0 +1,207 @@
+{
+"date": "2026-01-09",
+"timezone": "America/Chicago",
+"generated_at": "2026-01-09T18:48:32Z",
+"source_scope": {
+"region_label": "Quincy, IL (Adams County / Tri-State)",
+"notes": "Live web sources; filtered to items published within the last 12 hours."
+},
+"articles": [
+{
+"id": "art_20260109_0001",
+"slug": "quincy-man-pleads-guilty-aggravated-criminal-sexual-abuse-sentenced",
+"status": "published",
+"title": "Quincy man pleads guilty to aggravated criminal sexual abuse; sentenced to 12 years",
+"theme": "courts",
+"tags": [
+"court",
+"sentencing",
+"adams-county",
+"qps",
+"criminal-case"
+],
+"geo": {
+"scope": "county",
+"place_name": "Adams County, IL",
+"fips": null
+},
+"source_cluster": {
+"topic_id": "topic_quincy_20260109_01",
+"sources": [
+{
+"publisher": "Muddy River News",
+"url": "https://muddyrivernews.com/noteworthy/quincy-man-pleads-guilty-to-sexual-abuse-of-underage-victim-qps-employees-tipped-off-investigators/20260109114037/
+",
+"published_at": "2026-01-09T11:40:37-06:00"
+},
+{
+"publisher": "KHQA",
+"url": "https://khqa.com/news/local/quincy-man-gets-12-years-in-state-prison-for-sexual-abuse-caleb-veihl-illinois-department-of-corrections-bench-trial-conduct-minor-adams-county-jail
+",
+"published_at": "2026-01-09T10:14:00-06:00"
+}
+]
+},
+"summary": [
+"Caleb P. Veihl, 33, of Quincy pleaded guilty to two counts of aggravated criminal sexual abuse shortly before a scheduled bench trial.",
+"A judge sentenced him to 12 years in the Illinois Department of Corrections; reporting indicates he will serve at 50% with four years of mandatory supervised release afterward.",
+"Authorities credited community reporting and victim-advocacy support, with investigation handled by Quincy Police and involvement noted from Quincy Public Schools staff."
+],
+"body_markdown": "## What happened\nLocal court reporting indicates Caleb P. Veihl (33) entered a guilty plea to two counts of aggravated criminal sexual abuse shortly before a scheduled bench trial. He was sentenced to 12 years in the Illinois Department of Corrections, with reporting noting credit for time previously served in the Adams County Jail.\n\n## Why it matters\nThe case highlights how school personnel reporting and victim-advocacy services can trigger investigations and help move cases forward. It also provides a concrete example of how sentencing rules (including percentage-to-serve and supervised release) shape outcomes beyond the headline prison term.\n\n## What to watch\nAny additional filings (appeals or post-sentencing motions), updates from the State's Attorney’s Office, and related community guidance about reporting pathways and victim support resources.",
+"created_at": "2026-01-09T18:48:32Z",
+"updated_at": "2026-01-09T18:48:32Z"
+},
+{
+"id": "art_20260109_0002",
+"slug": "quincy-university-opens-otd-dpt-doctoral-facility-north-campus",
+"status": "published",
+"title": "Quincy University opens new OT and PT doctoral facility at North Campus",
+"theme": "education",
+"tags": [
+"quincy-university",
+"occupational-therapy",
+"physical-therapy",
+"workforce",
+"higher-education"
+],
+"geo": {
+"scope": "city",
+"place_name": "Quincy, IL",
+"fips": null
+},
+"source_cluster": {
+"topic_id": "topic_quincy_20260109_02",
+"sources": [
+{
+"publisher": "Muddy River News",
+"url": "https://muddyrivernews.com/communities/illinois/quincy-univeristy-opens-occupational-and-physical-therapy-doctoral-programs-facility/20260109083644/
+",
+"published_at": "2026-01-09T08:36:44-06:00"
+}
+]
+},
+"summary": [
+"Quincy University held a ribbon cutting and open house for a new Occupational Therapy Doctorate (OTD) and Doctor of Physical Therapy (DPT) facility at its North Campus near 17th & Seminary Road.",
+"The university described a hybrid model combining online coursework with in-person lab work designed for skills practice and simulation.",
+"Reporting notes the OTD program’s first cohort began coursework on January 5, with the DPT program slated to start in August."
+],
+"body_markdown": "## What happened\nQuincy University opened a new doctoral-program facility for Occupational Therapy (OTD) and Physical Therapy (DPT) with a ribbon cutting and open house at the North Campus location near 17th & Seminary Road. The facility includes lab spaces intended for hands-on training.\n\n## Why it matters\nOT and PT programs are tied directly to healthcare workforce needs. A local doctoral pipeline can affect staffing capacity in regional clinics and hospitals over the next few years, especially if cohorts scale.\n\n## What to watch\nEnrollment size and clinical placement partnerships, timeline and details for the DPT August start, and any subsequent expansions (additional labs, faculty hiring, or new healthcare-focused degrees).",
+"created_at": "2026-01-09T18:48:34Z",
+"updated_at": "2026-01-09T18:48:34Z"
+},
+{
+"id": "art_20260109_0003",
+"slug": "wgem-forecast-few-flakes-possible-tonight-quincy-area",
+"status": "published",
+"title": "WGEM forecast: cooler, breezy Friday; a few flakes possible tonight",
+"theme": "weather",
+"tags": [
+"forecast",
+"snow-showers",
+"winds",
+"temperatures",
+"weekend"
+],
+"geo": {
+"scope": "metro",
+"place_name": "Quincy area (Tri-State)",
+"fips": null
+},
+"source_cluster": {
+"topic_id": "topic_quincy_20260109_03",
+"sources": [
+{
+"publisher": "WGEM",
+"url": "https://www.wgem.com/2026/01/09/few-flakes-are-possible-tonight/
+",
+"published_at": "2026-01-09T04:24:00-06:00"
+}
+]
+},
+"summary": [
+"WGEM reports Friday will be cooler than earlier this week, with northwest winds gusting during the morning and highs in the mid-40s.",
+"Showers are expected overnight; as temperatures drop near freezing, some precipitation may switch to snow showers with limited accumulation (generally a dusting).",
+"The weekend trend continues cooler: upper 30s Saturday and low-to-mid 30s Sunday, with a warmer start to next week possible after a warm front moves through."
+],
+"body_markdown": "## What happened\nLocal weather reporting indicates cooler conditions for Friday with lingering clouds, breezy northwest winds, and highs around the mid-40s. Overnight precipitation may transition from rain showers to snow showers as temperatures fall toward freezing.\n\n## Why it matters\nEven light snow can affect early-morning travel—especially if temperatures dip just enough for slick spots on bridges, ramps, and untreated surfaces. The bigger story is the temperature slide into the weekend after an unusually mild stretch.\n\n## What to watch\nWhether overnight precipitation timing overlaps with the coldest hours (which increases the chance of slick roads), and how quickly skies clear Saturday/Sunday, which can drive colder overnight lows.",
+"created_at": "2026-01-09T18:48:36Z",
+"updated_at": "2026-01-09T18:48:36Z"
+},
+{
+"id": "art_20260109_0004",
+"slug": "wgem-hospital-report-quincy-area-deaths-no-births",
+"status": "published",
+"title": "WGEM hospital report: two deaths listed; no births reported today",
+"theme": "health",
+"tags": [
+"hospital-report",
+"deaths",
+"community",
+"quincy",
+"obituary"
+],
+"geo": {
+"scope": "metro",
+"place_name": "Quincy area (Tri-State)",
+"fips": null
+},
+"source_cluster": {
+"topic_id": "topic_quincy_20260109_04",
+"sources": [
+{
+"publisher": "WGEM",
+"url": "https://www.wgem.com/2026/01/09/hospital-report-january-9-2025/
+",
+"published_at": "2026-01-09T08:29:00-06:00"
+}
+]
+},
+"summary": [
+"WGEM’s hospital report lists the death of James E. “Jim” Raithel, 86, of Quincy, who died Jan. 8 at home.",
+"The report also lists the death of Letha J. King, 89, of Creve Coeur, Missouri, who died Jan. 8.",
+"WGEM reports there were no births to report today."
+],
+"body_markdown": "## What happened\nWGEM published a daily hospital report listing two deaths in the viewing region and noting no births to report for the day.\n\n## Why it matters\nThese reports function as a rapid community record—often the earliest public notice for families and neighbors—before longer obituary notices and service details are published elsewhere.\n\n## What to watch\nFollow-up obituary postings and service announcements, plus any updates or corrections if additional information is released later in the day.",
+"created_at": "2026-01-09T18:48:38Z",
+"updated_at": "2026-01-09T18:48:38Z"
+},
+{
+"id": "art_20260109_0005",
+"slug": "qpd-recovered-property-list-appointments-required-evidence-department",
+"status": "published",
+"title": "Quincy Police publish recovered property list; appointments required for pickup",
+"theme": "public-safety",
+"tags": [
+"quincy-police",
+"recovered-property",
+"evidence",
+"lost-and-found",
+"appointments"
+],
+"geo": {
+"scope": "city",
+"place_name": "Quincy, IL",
+"fips": null
+},
+"source_cluster": {
+"topic_id": "topic_quincy_20260109_05",
+"sources": [
+{
+"publisher": "Muddy River News",
+"url": "https://muddyrivernews.com/communities/recovered-property-lost-a-keychain-cant-find-your-bike-missing-a-portable-radio-quincy-police-department-might-have-it-2/20260109070308/
+",
+"published_at": "2026-01-09T07:03:08-06:00"
+}
+]
+},
+"summary": [
+"Quincy Police released an updated list of recovered items (keys, wallets/cards, phones, and bicycles) available through the QPD Evidence Department.",
+"Residents are instructed to call the Evidence Department and reference the listed ID number; appointments are required to pick up property.",
+"The notice states recovered firearms are not listed and advises anyone missing a firearm to contact QPD directly."
+],
+"body_markdown": "## What happened\nQuincy Police, via a published recovered-property notice, listed items currently held by the Evidence Department (including keys, wallets/cards, phones, and bikes) with ID numbers for claim verification.\n\n## Why it matters\nRecovered-property updates are a practical, fast way to reconnect residents with high-value items (phones, IDs, keys) and reduce long-term storage burden for the department.\n\n## What to watch\nAdditional updates to the recovered-property list, changes to pickup procedures, and any separate public notices for items not included in the list (including firearms).",
+"created_at": "2026-01-09T18:48:40Z",
+"updated_at": "2026-01-09T18:48:40Z"
+}
+]
+}
