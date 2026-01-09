@@ -1,0 +1,387 @@
+{
+"date": "2026-01-09",
+"timezone": "America/Chicago",
+"generated_at": "2026-01-09T20:07:47Z",
+"source_scope": {
+"region_label": "United States",
+"notes": "Today-only U.S. economy/markets roundup. Practical, non-alarmist selection; excludes routine crime and fear-based framing."
+},
+"articles": [
+{
+"id": "art_20260109_0001",
+"slug": "us-december-jobs-growth-slows-unemployment-44",
+"status": "published",
+"title": "U.S. job growth slowed in December; unemployment rate dipped to 4.4%",
+"theme": "labor-market",
+"tags": [
+"jobs",
+"payrolls",
+"unemployment",
+"wages"
+],
+"geo": {
+"scope": "national",
+"place_name": "United States",
+"fips": null
+},
+"source_cluster": {
+"topic_id": "topic_us_20260109_jobs_01",
+"sources": [
+{
+"publisher": "Reuters",
+"url": "https://www.reuters.com/business/us-job-growth-stuck-stall-speed-december-unemployment-rate-dips-44-2026-01-09/
+",
+"published_at": "2026-01-09T13:23:00-06:00"
+},
+{
+"publisher": "U.S. Bureau of Labor Statistics",
+"url": "https://www.bls.gov/news.release/pdf/empsit.pdf
+",
+"published_at": "2026-01-09T07:30:00-06:00"
+}
+]
+},
+"summary": [
+"Nonfarm payrolls rose by 50,000 in December, below expectations in major forecasts.",
+"The unemployment rate eased to 4.4%, signaling cooling job growth without a sharp deterioration in headline unemployment.",
+"Markets treated the report as “soft-but-not-collapse,” focusing on what it implies for Fed policy rather than a single month’s print."
+],
+"body_markdown": "## What happened\nThe latest U.S. employment report showed payroll growth slowed in December, coming in at 50,000. The unemployment rate ticked down to 4.4%.\n\n## Why it matters\nPayroll growth is one of the cleanest “real economy” signals. A slower pace can reduce inflation pressure through demand and wages, which can influence the Federal Reserve’s path for interest rates.\n\n## What to watch\nNext month’s revisions and the trend across multiple reports matter more than a single reading. Pay attention to whether slowing hiring broadens across industries and whether wage growth cools further.",
+"created_at": "2026-01-09T20:00:00Z",
+"updated_at": "2026-01-09T20:02:00Z"
+},
+{
+"id": "art_20260109_0002",
+"slug": "fed-rate-cut-expectations-shift-after-december-jobs",
+"status": "published",
+"title": "Jobs data nudged rate expectations: traders priced a higher chance the Fed holds later this month",
+"theme": "monetary-policy",
+"tags": [
+"fed",
+"rates",
+"policy",
+"futures"
+],
+"geo": {
+"scope": "national",
+"place_name": "United States",
+"fips": null
+},
+"source_cluster": {
+"topic_id": "topic_us_20260109_fed_01",
+"sources": [
+{
+"publisher": "Reuters",
+"url": "https://www.reuters.com/business/fed/pause-rate-cuts-until-june-after-jobs-report-2026-01-09/
+",
+"published_at": "2026-01-09T13:15:00-06:00"
+}
+]
+},
+"summary": [
+"Following the jobs report, market pricing leaned toward the Fed keeping rates unchanged at the upcoming January meeting.",
+"The shift was about timing and probabilities rather than a “new direction,” with investors still weighing cuts later in the year.",
+"The practical takeaway: interest-rate expectations stayed data-dependent and sensitive to incremental macro surprises."
+],
+"body_markdown": "## What happened\nAfter December’s employment figures, interest-rate markets adjusted expectations for when the Federal Reserve might cut rates next, with a higher implied probability of the Fed holding steady in late January.\n\n## Why it matters\nPolicy expectations drive borrowing costs across mortgages, auto loans, credit cards, and business financing. Even small shifts in expected timing can move yields, the dollar, and risk assets.\n\n## What to watch\nUpcoming inflation and growth data will likely matter more than any single labor report. Watch whether inflation measures cool enough to justify earlier cuts, or whether resilience keeps the Fed cautious.",
+"created_at": "2026-01-09T20:01:00Z",
+"updated_at": "2026-01-09T20:03:00Z"
+},
+{
+"id": "art_20260109_0003",
+"slug": "consumer-sentiment-edges-up-early-january-inflation-worries-persist",
+"status": "published",
+"title": "U.S. consumer sentiment ticked up in early January, but inflation concerns stayed elevated",
+"theme": "consumer",
+"tags": [
+"consumer",
+"sentiment",
+"inflation",
+"expectations"
+],
+"geo": {
+"scope": "national",
+"place_name": "United States",
+"fips": null
+},
+"source_cluster": {
+"topic_id": "topic_us_20260109_consumer_01",
+"sources": [
+{
+"publisher": "Reuters",
+"url": "https://www.reuters.com/business/us-consumer-sentiment-perks-up-early-january-2026-01-09/
+",
+"published_at": "2026-01-09T09:35:00-06:00"
+}
+]
+},
+"summary": [
+"The University of Michigan’s sentiment index rose to 54.0 from 52.9, modestly above expectations.",
+"Households continued to cite high prices and a softer labor-market outlook as key concerns.",
+"Inflation expectations over the next year held at 4.2%, while longer-run expectations moved higher in the survey."
+],
+"body_markdown": "## What happened\nA closely watched consumer survey showed sentiment improved slightly in early January. Respondents still pointed to inflation and labor-market uncertainty as major “kitchen table” issues.\n\n## Why it matters\nConsumer sentiment can influence spending behavior at the margin, especially for big-ticket purchases. For policymakers and markets, inflation expectations in surveys are a key signal to watch.\n\n## What to watch\nLook for follow-through in retail sales and credit data. If sentiment rises but spending doesn’t, it can indicate households feel better but remain constrained by prices, rates, or income growth.",
+"created_at": "2026-01-09T20:02:00Z",
+"updated_at": "2026-01-09T20:04:00Z"
+},
+{
+"id": "art_20260109_0004",
+"slug": "household-wealth-hits-record-q3-2025-driven-by-stocks-and-home-prices",
+"status": "published",
+"title": "U.S. household wealth hit a record in Q3 2025, lifted by stocks and home prices",
+"theme": "household-finances",
+"tags": [
+"net-worth",
+"stocks",
+"housing",
+"debt"
+],
+"geo": {
+"scope": "national",
+"place_name": "United States",
+"fips": null
+},
+"source_cluster": {
+"topic_id": "topic_us_20260109_wealth_01",
+"sources": [
+{
+"publisher": "Reuters",
+"url": "https://www.reuters.com/world/us/us-household-wealth-hit-record-third-quarter-2025-fed-data-shows-2026-01-09/
+",
+"published_at": "2026-01-09T12:21:00-06:00"
+}
+]
+},
+"summary": [
+"Fed data showed household and nonprofit net worth rose to about $181.6 trillion at end-September, a record level.",
+"Stock portfolios and real estate values were key contributors to the increase over the quarter.",
+"Household debt also increased, led by mortgage debt and consumer credit in the data."
+],
+"body_markdown": "## What happened\nFederal Reserve data showed U.S. household and nonprofit net worth reached a new high in the third quarter of 2025, supported by equity-market gains and continued increases in home values.\n\n## Why it matters\nWealth effects can impact spending: when portfolios and home equity rise, households often feel more able to consume or invest, even if income growth is unchanged.\n\n## What to watch\nWhether wealth gains broaden beyond the top end of households, and whether higher debt service costs offset the positive effects. Also watch how equity and housing markets evolve as rate expectations change.",
+"created_at": "2026-01-09T20:03:00Z",
+"updated_at": "2026-01-09T20:05:00Z"
+},
+{
+"id": "art_20260109_0005",
+"slug": "housing-stocks-rally-after-200b-mortgage-bond-buy-order",
+"status": "published",
+"title": "Housing-linked stocks jumped after a $200B mortgage bond purchase order aimed at easing housing costs",
+"theme": "housing",
+"tags": [
+"mortgages",
+"housing",
+"rates",
+"policy"
+],
+"geo": {
+"scope": "national",
+"place_name": "United States",
+"fips": null
+},
+"source_cluster": {
+"topic_id": "topic_us_20260109_housing_01",
+"sources": [
+{
+"publisher": "Reuters",
+"url": "https://www.reuters.com/business/finance/us-mortgage-lenders-rally-trump-administrations-plan-buy-200-billion-bonds-2026-01-09/
+",
+"published_at": "2026-01-09T12:32:00-06:00"
+}
+]
+},
+"summary": [
+"Mortgage lenders and housing-related stocks rose after an order for $200B in mortgage bond purchases intended to help lower mortgage rates and payments.",
+"Analysts highlighted the mortgage-to-Treasury spread as the key mechanical channel that could translate into lower mortgage rates.",
+"Markets treated the move as supportive for housing-sensitive equities, while noting supply constraints remain central to affordability."
+],
+"body_markdown": "## What happened\nHousing-linked stocks rallied after an order to purchase $200 billion in mortgage bonds, framed as a step to reduce housing costs by lowering mortgage rates and monthly payments.\n\n## Why it matters\nMortgage rates are a major throttle on housing activity. If mortgage spreads narrow, borrowing costs can fall even without large moves in benchmark Treasury yields.\n\n## What to watch\nWhether mortgage rates actually reprice lower and whether supply-side constraints (inventory, zoning, new construction pace) keep affordability tight even if financing costs improve.",
+"created_at": "2026-01-09T20:04:00Z",
+"updated_at": "2026-01-09T20:06:00Z"
+},
+{
+"id": "art_20260109_0006",
+"slug": "dollar-extends-gains-after-jobs-data-fed-hold-pricing",
+"status": "published",
+"title": "Dollar strengthened after jobs data as markets leaned toward a near-term Fed hold",
+"theme": "currencies",
+"tags": [
+"usd",
+"fx",
+"yields",
+"fed"
+],
+"geo": {
+"scope": "national",
+"place_name": "United States",
+"fips": null
+},
+"source_cluster": {
+"topic_id": "topic_us_20260109_fx_01",
+"sources": [
+{
+"publisher": "Reuters",
+"url": "https://www.reuters.com/world/asia-pacific/dollar-advances-with-us-jobs-data-supreme-court-ruling-view-2026-01-09/
+",
+"published_at": "2026-01-09T11:31:00-06:00"
+}
+]
+},
+"summary": [
+"The dollar gained after the jobs report, with rate markets shifting toward a higher probability of the Fed holding steady at the late-January meeting.",
+"Moves in the dollar were framed as a response to interest-rate expectations rather than a single economic datapoint.",
+"Currency changes matter quickly for import prices, multinational earnings translation, and financial conditions."
+],
+"body_markdown": "## What happened\nAfter U.S. jobs data, the dollar rose as traders priced in a greater chance the Federal Reserve leaves rates unchanged in the near term.\n\n## Why it matters\nA stronger dollar can reduce imported inflation pressures but can also tighten conditions for exporters and dollar-sensitive sectors.\n\n## What to watch\nWatch how inflation data and Treasury yields evolve. The dollar’s next leg typically follows real-rate differentials more than headlines.",
+"created_at": "2026-01-09T20:05:00Z",
+"updated_at": "2026-01-09T20:07:00Z"
+},
+{
+"id": "art_20260109_0007",
+"slug": "sp500-record-high-chipmakers-broad-gains",
+"status": "published",
+"title": "S&P 500 set a record high as chipmakers led broad gains",
+"theme": "markets",
+"tags": [
+"stocks",
+"sp500",
+"semiconductors",
+"earnings"
+],
+"geo": {
+"scope": "national",
+"place_name": "United States",
+"fips": null
+},
+"source_cluster": {
+"topic_id": "topic_us_20260109_markets_01",
+"sources": [
+{
+"publisher": "Reuters",
+"url": "https://www.reuters.com/business/us-stock-futures-subdued-ahead-crucial-jobs-report-tariff-ruling-2026-01-09/
+",
+"published_at": "2026-01-09T13:23:00-06:00"
+}
+]
+},
+"summary": [
+"The S&P 500 climbed to a record high, with semiconductor strength and broader sector participation supporting the move.",
+"A softer jobs report didn’t meaningfully change expectations for rate cuts later in the year, according to market framing.",
+"Investors also looked ahead to earnings season with valuations elevated versus longer-run averages cited in market data."
+],
+"body_markdown": "## What happened\nU.S. stocks finished the week strong, with the S&P 500 reaching a new record high. Chipmakers were a standout driver, while multiple sectors contributed.\n\n## Why it matters\nEquity levels influence household wealth, business confidence, and financing conditions. Sector breadth can signal whether a rally is narrowly concentrated or more durable.\n\n## What to watch\nEarnings guidance and margins as results come in, plus whether rates and inflation data validate current market expectations.",
+"created_at": "2026-01-09T20:06:00Z",
+"updated_at": "2026-01-09T20:08:00Z"
+},
+{
+"id": "art_20260109_0008",
+"slug": "oil-prices-rise-weekly-gain-supply-risk-headlines",
+"status": "published",
+"title": "Oil prices rose for a weekly gain as supply-risk headlines offset inventory/oversupply signals",
+"theme": "energy",
+"tags": [
+"oil",
+"wtf",
+"brent",
+"inflation"
+],
+"geo": {
+"scope": "global",
+"place_name": null,
+"fips": null
+},
+"source_cluster": {
+"topic_id": "topic_us_20260109_oil_01",
+"sources": [
+{
+"publisher": "Reuters",
+"url": "https://www.reuters.com/business/energy/oil-rises-concerns-about-supply-disruptions-venezuela-iran-increase-2026-01-09/
+",
+"published_at": "2026-01-09T13:10:00-06:00"
+}
+]
+},
+"summary": [
+"Oil climbed about 2% on the day and was positioned for a weekly gain as traders weighed supply-related headlines.",
+"The same reporting also noted rising inventories and an oversupply backdrop that could limit sustained upside without further escalation.",
+"For the U.S., oil moves feed quickly into gasoline/diesel costs and headline inflation expectations."
+],
+"body_markdown": "## What happened\nCrude prices rose as markets weighed supply-risk headlines, while also acknowledging countervailing signals like rising inventories and an oversupply narrative.\n\n## Why it matters\nEnergy prices are a fast channel into household budgets and business costs (transport, logistics, inputs). They also influence inflation expectations.\n\n## What to watch\nWhether price gains persist beyond the headline catalyst cycle, and whether inventory data and OPEC+ output trends reassert downward pressure.",
+"created_at": "2026-01-09T20:07:00Z",
+"updated_at": "2026-01-09T20:09:00Z"
+},
+{
+"id": "art_20260109_0009",
+"slug": "gold-weekly-gain-after-payrolls-miss-rate-cut-bets",
+"status": "published",
+"title": "Gold notched a weekly gain as weaker payrolls reinforced rate-cut expectations",
+"theme": "commodities",
+"tags": [
+"gold",
+"rates",
+"usd",
+"safe-haven"
+],
+"geo": {
+"scope": "global",
+"place_name": null,
+"fips": null
+},
+"source_cluster": {
+"topic_id": "topic_us_20260109_gold_01",
+"sources": [
+{
+"publisher": "Reuters",
+"url": "https://www.reuters.com/world/india/gold-falls-commodity-index-adjustments-weigh-ahead-us-jobs-data-2026-01-09/
+",
+"published_at": "2026-01-09T12:44:00-06:00"
+}
+]
+},
+"summary": [
+"Gold rose on the day and was set for a weekly gain, with markets focusing on softer U.S. payrolls and the rate outlook.",
+"Lower expected rates typically reduce the opportunity cost of holding non-yielding assets like gold.",
+"Silver also moved higher in the same market context, reflecting broader precious-metals positioning."
+],
+"body_markdown": "## What happened\nGold prices moved higher and were positioned for a weekly gain as investors incorporated the latest U.S. jobs data and its implications for interest rates.\n\n## Why it matters\nGold often reacts to real yields, the dollar, and policy expectations. It’s also used as a portfolio hedge when uncertainty rises.\n\n## What to watch\nWatch U.S. inflation prints, real yields, and the dollar. If yields rise, gold tends to face headwinds; if rates are expected to fall, gold often finds support.",
+"created_at": "2026-01-09T20:08:00Z",
+"updated_at": "2026-01-09T20:10:00Z"
+},
+{
+"id": "art_20260109_0010",
+"slug": "global-food-prices-dip-december-inflation-input",
+"status": "published",
+"title": "Global food price index edged down in December, a practical input for inflation watchers",
+"theme": "global-economy",
+"tags": [
+"food-prices",
+"inflation",
+"commodities",
+"supply"
+],
+"geo": {
+"scope": "global",
+"place_name": null,
+"fips": null
+},
+"source_cluster": {
+"topic_id": "topic_us_20260109_food_01",
+"sources": [
+{
+"publisher": "Reuters",
+"url": "https://www.reuters.com/world/global-food-prices-dip-slightly-december-fao-index-shows-2026-01-09/
+",
+"published_at": "2026-01-09T03:48:00-06:00"
+}
+]
+},
+"summary": [
+"A global benchmark for food prices dipped slightly in December, according to reporting on the FAO index.",
+"Food commodity trends can flow into consumer inflation with a lag through processed foods and imports.",
+"The more useful signal is the direction over multiple months, not a single print."
+],
+"body_markdown": "## What happened\nThe FAO’s global food price index slipped slightly in December, reflecting easing pressure in parts of the global food commodity basket.\n\n## Why it matters\nFood is a large share of household spending, and global commodity moves can influence U.S. grocery prices over time through supply chains, transportation, and imports.\n\n## What to watch\nWhether the downshift persists into Q1 and which components (grains, oils, sugar, dairy, meat) are doing the work—those details often explain what shows up later in consumer inflation data.",
+"created_at": "2026-01-09T20:09:00Z",
+"updated_at": "2026-01-09T20:11:00Z"
+}
+]
+}
