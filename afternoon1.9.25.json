@@ -1,0 +1,281 @@
+{
+"date": "2026-01-09",
+"timezone": "America/Chicago",
+"generated_at": "2026-01-09T23:20:00Z",
+"source_scope": {
+"region_label": "North Alabama: Athens–Decatur–Hartselle–Priceville and surrounding counties (Limestone, Morgan, nearby)",
+"notes": "Selection focuses on practical, non-alarmist, fact-first stories with clear local impact (jobs, infrastructure, city/county actions, community events). Routine crime blotters and fear-based coverage are excluded."
+},
+"articles": [
+{
+"id": "art_20260109_0001",
+"slug": "athens-career-center-workforce-services-open",
+"status": "published",
+"title": "Athens opens a state-supported Career Center on Athens State’s campus",
+"theme": "workforce",
+"tags": [
+"jobs",
+"training",
+"employers",
+"workforce-services",
+"limestone-county"
+],
+"geo": {
+"scope": "local",
+"place_name": "Athens, Alabama"
+},
+"body_markdown": "## Summary\n- A new Athens Career Center has opened on the Athens State University campus as a full-service extension of Alabama’s workforce services.\n- The center is positioned to help both job seekers and employers with hiring, placement, and training support.\n\n## Key facts\n- The Athens Career Center reopen/launch was marked by a ribbon-cutting involving local, state, and university leadership.\n- Services listed include resume help, job placement, education/vocational training assistance, and employer services like pre-screening.\n- Location: Chasteen Hall on Athens State’s campus (suite location provided in the article).\n\n## Why it matters\n- Consolidates “first-step” employment services locally, which can reduce friction for hiring and job transitions in Limestone County.\n- Adds another workforce-development layer alongside regional growth and employer demand.\n\n## What to watch next\n- Whether the center publishes recurring hiring events, training schedules, or employer-partner announcements.\n- Early indicators of usage (appointments, hiring outcomes, employer participation) once the center has been operating for a few months.",
+"source_cluster": [
+{
+"publisher": "Athens The News Courier",
+"url": "https://enewscourier.com/2026/01/09/athens-states-newest-asset-a-state-supported-career-center-to-boost-job-seekers-and-employers/
+",
+"published_at": "2026-01-09T10:47:00-06:00"
+}
+]
+},
+{
+"id": "art_20260109_0002",
+"slug": "athens-food-city-grant-traffic-drainage-upgrades",
+"status": "published",
+"title": "Food City project in Athens gets a $300K grant for traffic and drainage upgrades",
+"theme": "local-economy",
+"tags": [
+"retail-development",
+"jobs",
+"road-improvements",
+"drainage",
+"grants"
+],
+"geo": {
+"scope": "local",
+"place_name": "Athens, Alabama"
+},
+"body_markdown": "## Summary\n- A state Community Development Block Grant (CDBG) award is tied to road and drainage upgrades needed for a new Food City site and nearby retail development.\n- The project is framed as both a traffic-access fix and an economic-development enablement step.\n\n## Key facts\n- Grant amount: $300,000 (CDBG), administered in Alabama by ADECA.\n- Work described: widening, deceleration/turn lanes, and drainage improvements near West Elm Street and Lucas Ferry Road.\n- The article cites expectations of ~100 new jobs and a 57,000 sq. ft. store planned to open next spring, with additional private investment details.\n\n## Why it matters\n- This is the type of “invisible” infrastructure work (turn lanes/drainage) that often determines whether large retail projects move smoothly or create long-term traffic headaches.\n- The public/private pairing is a common growth model: targeted roadway upgrades unlock larger private buildouts.\n\n## What to watch next\n- Timeline for the intersection work and whether it phases around peak traffic times.\n- Any follow-on retail announcements tied to the same development footprint.",
+"source_cluster": [
+{
+"publisher": "Athens The News Courier",
+"url": "https://enewscourier.com/2025/12/27/food-city-project-gets-grant-boost-from-governors-office-for-traffic-drainage-upgrades/
+",
+"published_at": "2025-12-27T05:00:00-06:00"
+}
+]
+},
+{
+"id": "art_20260109_0003",
+"slug": "festival-of-the-cranes-weekend-decatur-wheeler-nwr",
+"status": "published",
+"title": "Festival of the Cranes returns Jan 9–11 with events across Decatur venues",
+"theme": "community-events",
+"tags": [
+"wheeler-nwr",
+"tourism",
+"family-events",
+"nature",
+"decatur"
+],
+"geo": {
+"scope": "regional",
+"place_name": "Decatur and Wheeler National Wildlife Refuge (Limestone/Morgan/Madison)"
+},
+"body_markdown": "## Summary\n- The Festival of the Cranes runs January 9–11, centered around Wheeler National Wildlife Refuge and multiple Decatur venues.\n- The weekend blends wildlife viewing with talks, workshops, and family activities.\n\n## Key facts\n- The story notes the refuge’s winter crane presence (including large numbers of sandhill cranes and a small number of whooping cranes) and highlights observation opportunities.\n- Venues listed include the Princess Theatre, Cook Museum of Natural Science, the Decatur Public Library, and the Alabama Center for the Arts.\n- The observation building address is provided in the article for visitors who want indoor viewing.\n\n## Why it matters\n- Big seasonal draw that reliably boosts weekend foot traffic for nearby cultural sites and local businesses.\n- Practical “low-barrier” nature programming: even non-birders can participate without specialized gear.\n\n## What to watch next\n- Weather impacts on outdoor viewing and any schedule adjustments announced by organizers.\n- Spillover programming (additional workshops, extended hours, or added sessions) if attendance is strong.",
+"source_cluster": [
+{
+"publisher": "Athens The News Courier",
+"url": "https://enewscourier.com/2026/01/07/happening-this-weekend-festival-of-the-cranes-at-wheeler-national-wildlife-refuge/
+",
+"published_at": "2026-01-07T06:37:00-06:00"
+}
+]
+},
+{
+"id": "art_20260109_0004",
+"slug": "decatur-flying-dragon-disc-golf-course-renovation-complete",
+"status": "published",
+"title": "Decatur completes renovation of the Flying Dragon Disc Golf Course at Jack Allen",
+"theme": "parks-recreation",
+"tags": [
+"parks",
+"disc-golf",
+"public-facilities",
+"quality-of-life",
+"decatur"
+],
+"geo": {
+"scope": "local",
+"place_name": "Decatur, Alabama"
+},
+"body_markdown": "## Summary\n- Decatur finished renovations to the Flying Dragon Disc Golf Course at the Jack Allen Recreation Complex.\n- The work is described as improving safety, playability, and navigation.\n\n## Key facts\n- Location: Jack Allen Recreation Complex (Flying Dragon Disc Golf Course).\n- The city frames the renovation around user experience: easier wayfinding and safer play.\n- The announcement is posted as an official city update.\n\n## Why it matters\n- Low-cost, high-usage recreation upgrades can significantly increase park utilization and community programming options.\n- Clear navigation and safety improvements reduce “drop-off” for new players and families.\n\n## What to watch next\n- Any follow-up community events (clinic days, league play, tournaments) that leverage the renovated course.\n- Whether similar upgrades appear on the city’s parks/recreation pipeline for 2026.",
+"source_cluster": [
+{
+"publisher": "City of Decatur, Alabama",
+"url": "https://www.cityofdecatural.com/flying-dragon-disc-golf-course-renovation-complete-at-jack-allen-recreation-complex/
+",
+"published_at": "2026-01-08T00:00:00-06:00"
+}
+]
+},
+{
+"id": "art_20260109_0005",
+"slug": "point-mallard-golf-course-temporary-closure-jan-19-2026",
+"status": "published",
+"title": "Point Mallard Golf Course to close Jan 19 for irrigation and course improvements",
+"theme": "parks-recreation",
+"tags": [
+"point-mallard",
+"golf",
+"capital-projects",
+"bond",
+"decatur"
+],
+"geo": {
+"scope": "local",
+"place_name": "Decatur, Alabama"
+},
+"body_markdown": "## Summary\n- Point Mallard Golf Course will temporarily close starting January 19, 2026 to complete course and irrigation improvements.\n- The city expects roughly a three-month construction window, weather permitting.\n\n## Key facts\n- Closure start: Monday, January 19, 2026.\n- Timeline: about three months, with a target of reopening in April; some holes may reopen on a limited basis as work progresses.\n- The city cites a $1.5M irrigation upgrade approved by the City Council and funded through a $35.2M bond issue approved in October.\n\n## Why it matters\n- Irrigation is “infrastructure under the grass” — upgrades can materially improve course conditions and reduce future maintenance disruptions.\n- The city explicitly links the work to positioning the facility for competitive and tournament play.\n\n## What to watch next\n- If the city publishes a phased reopening map (which holes reopen first) and any pricing/promotional changes after reopening.\n- Any additional Point Mallard Park Complex improvements tied to the same bond funding cycle.",
+"source_cluster": [
+{
+"publisher": "City of Decatur, Alabama",
+"url": "https://www.cityofdecatural.com/point-mallard-golf-course-to-temporarily-close-for-course-and-irrigation-improvements/
+",
+"published_at": "2025-12-30T00:00:00-06:00"
+}
+]
+},
+{
+"id": "art_20260109_0006",
+"slug": "decatur-city-council-supports-effort-fix-online-sales-tax-ssut",
+"status": "published",
+"title": "Decatur backs statewide push to update Alabama’s online sales tax distribution system",
+"theme": "local-government",
+"tags": [
+"municipal-finance",
+"tax-policy",
+"online-sales",
+"city-services",
+"decatur"
+],
+"geo": {
+"scope": "local",
+"place_name": "Decatur, Alabama"
+},
+"body_markdown": "## Summary\n- Decatur City Council voted to support a statewide effort aimed at changing Alabama’s Simplified Sellers Use Tax (SSUT) system.\n- The city did not join the lawsuit referenced, but formally endorsed the goal of a more “fair” distribution approach.\n\n## Key facts\n- The city’s action followed a briefing from its CFO explaining how SSUT impacts Decatur revenue as online shopping grows.\n- The city statement argues the current formula can shift local tax dollars away from the community where purchases are delivered/used.\n- The decision is framed around revenue stability for local services rather than a new local tax.\n\n## Why it matters\n- Small percentage changes in sales-tax distribution can be a meaningful budget line item for cities — especially as retail continues shifting online.\n- Residents typically feel this indirectly through service levels, maintenance schedules, and long-range planning capacity.\n\n## What to watch next\n- Whether the statewide lawsuit or legislative action produces a timeline for reform, and what implementation would look like for cities.\n- Any follow-up city finance briefings that quantify Decatur’s estimated impact under alternative formulas.",
+"source_cluster": [
+{
+"publisher": "City of Decatur, Alabama",
+"url": "https://www.cityofdecatural.com/city-council-backs-statewide-effort-to-fix-alabamas-online-sales-tax-system/
+",
+"published_at": "2025-12-18T00:00:00-06:00"
+}
+]
+},
+{
+"id": "art_20260109_0007",
+"slug": "decatur-approves-option-b-modaus-road-sportsplex",
+"status": "published",
+"title": "Decatur approves ‘Option B’ plan to move the Modaus Road Sportsplex forward",
+"theme": "infrastructure",
+"tags": [
+"sportsplex",
+"capital-projects",
+"public-works",
+"recreation",
+"decatur"
+],
+"geo": {
+"scope": "local",
+"place_name": "Decatur, Alabama"
+},
+"body_markdown": "## Summary\n- Decatur City Council unanimously approved an updated “Option B” plan for the Modaus Road Sportsplex.\n- The city frames the redesign as a path to balance cost, function, and long-term use after earlier project pauses.\n\n## Key facts\n- The article cites the construction pause in September 2024 for reassessment after cost realities outpaced an original budget.\n- The city states that roughly $15M has already been invested in site prep, utilities, and core construction.\n- Approval of Option B is positioned as the step that allows forward momentum on a revised build strategy.\n\n## Why it matters\n- Large recreation builds are multi-year commitments; design resets can be expensive, but finishing with a usable footprint can protect prior sunk costs.\n- Community sports facilities affect tournament traffic, local hotel/restaurant spend, and youth program capacity.\n\n## What to watch next\n- Updated construction timeline, revised scope details, and whether the city publishes a phased opening plan.\n- Any new funding/bond details or vendor contracts tied specifically to the Option B configuration.",
+"source_cluster": [
+{
+"publisher": "City of Decatur, Alabama",
+"url": "https://www.cityofdecatural.com/decatur-city-council-approves-option-b-for-modaus-road-sportsplex/
+",
+"published_at": "2025-12-15T00:00:00-06:00"
+}
+]
+},
+{
+"id": "art_20260109_0008",
+"slug": "hartselle-business-license-renewals-january-deadline",
+"status": "published",
+"title": "Hartselle reminds businesses: annual licenses are due Jan 1 and delinquent Feb 1",
+"theme": "small-business",
+"tags": [
+"business-licenses",
+"compliance",
+"alcohol-licenses",
+"mobile-food",
+"hartselle"
+],
+"geo": {
+"scope": "local",
+"place_name": "Hartselle, Alabama"
+},
+"body_markdown": "## Summary\n- The City of Hartselle posted a January reminder for annual business (privilege) license renewals.\n- Alcohol license renewals and mobile food unit renewals/inspections are also called out as January items.\n\n## Key facts\n- Renewals are due January 1 each year; licenses become delinquent as of February 1.\n- The city states that every business operating within city limits must obtain a license to legally conduct business.\n- Mobile food unit permits require scheduling an inspection prior to renewal, and the city provides contact channels for forms and questions.\n\n## Why it matters\n- Straightforward compliance item that can prevent avoidable penalties or administrative delays.\n- Useful for small operators (especially mobile vendors) who can miss inspection scheduling windows.\n\n## What to watch next\n- Whether the city updates fee schedules, online renewal options, or adds business-office hours during peak renewal season.\n- Any ARC/council meeting notices related to alcohol license applications and renewals.",
+"source_cluster": [
+{
+"publisher": "City of Hartselle, Alabama (CivicAlerts)",
+"url": "https://hartselle.org/CivicAlerts.aspx?AID=154
+",
+"published_at": "2026-01-05T00:00:00-06:00"
+}
+]
+},
+{
+"id": "art_20260109_0009",
+"slug": "aldot-i65-patching-between-hartselle-priceville-ahead-of-2026-resurfacing",
+"status": "published",
+"title": "ALDOT: I-65 patching between Hartselle and Priceville, with resurfacing continuing into 2026",
+"theme": "transportation",
+"tags": [
+"i-65",
+"road-work",
+"lane-closures",
+"aldot",
+"morgan-county"
+],
+"geo": {
+"scope": "regional",
+"place_name": "I-65 corridor (Hartselle ↔ Priceville)"
+},
+"body_markdown": "## Summary\n- ALDOT advised motorists to expect daytime patching and delays on I-65 between Hartselle and Priceville.\n- The announcement also contextualizes the work as part of a broader resurfacing project spanning Cullman, Morgan, and Limestone counties.\n\n## Key facts\n- Work zone described: between Exit 328 (SR-36 in Hartselle) and Exit 334 (SR-67 in Priceville).\n- Work hours given: 8:30 a.m. to 4:30 p.m. (weather permitting) with single-lane closures; crews planned to work southbound first, then northbound.\n- ALDOT notes a second phase of resurfacing (SR-36 in Hartselle to north of the Tennessee River in Limestone County) planned to begin when weather permits in 2026.\n\n## Why it matters\n- For commuters and freight, short-term lane closures are disruptive, but patching before deeper winter deterioration can reduce pothole-related slowdowns later.\n- The corridor is a primary north-south route for Morgan/Limestone access to Huntsville and beyond, so reliability affects regional travel time and logistics.\n\n## What to watch next\n- Start-of-2026 resurfacing updates (exact dates, nightly closure patterns) once temperatures support paving.\n- Any posted detour guidance or ALGO traffic alerts during peak travel days.",
+"source_cluster": [
+{
+"publisher": "ALDOT News Hub",
+"url": "https://aldotnews.com/2025/12/15/expect-daytime-patching-on-i-65-between-priceville-hartselle/
+",
+"published_at": "2025-12-15T00:00:00-06:00"
+}
+]
+},
+{
+"id": "art_20260109_0010",
+"slug": "limestone-county-commission-jan-5-2026-agenda-contracts-leases-budget-items",
+"status": "published",
+"title": "Limestone County Commission (Jan 5): agenda highlights include leases, service contracts, and budget actions",
+"theme": "county-government",
+"tags": [
+"county-commission",
+"agenda",
+"contracts",
+"budget",
+"limestone-county"
+],
+"geo": {
+"scope": "regional",
+"place_name": "Limestone County, Alabama"
+},
+"body_markdown": "## Summary\n- Limestone County posted agenda materials for its January 5 Commission meeting in Athens.\n- Items span routine governance: property/lease decisions, service agreements, and budget-related approvals.\n\n## Key facts\n- Meeting time/location shown: 9:00 a.m., Commission Chambers, 100 South Clinton Street, Athens.\n- The agenda materials include a work session and a commission meeting packet.\n- Agenda topics include multiple approvals across departments (examples include property/lease actions, inter-agency service agreements, and budget revisions).\n\n## Why it matters\n- County meeting packets are where “small” operational approvals accumulate into real service delivery (roads, senior services, admin capacity).\n- Useful for residents who want to track spending, contracts, and county priorities without noise.\n\n## What to watch next\n- The meeting video links (work session + commission meeting) for final votes and any amendments to agenda items.\n- Upcoming agenda postings to see which items become recurring (contracts renewed annually, leases, standing service agreements).",
+"source_cluster": [
+{
+"publisher": "Limestone County, Alabama (official site)",
+"url": "https://www.limestonecounty-al.gov/Meetings-Minutes/2026/01.05.2026-Commission-Meeting
+",
+"published_at": "2026-01-05T09:00:00-06:00"
+}
+]
+}
+]
+}
